@@ -46,8 +46,8 @@
                         </form>
 
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a class="active" href="#">Register</a></li>
-                            <li><a href="#">Sign In</a></li>
+                            <li><a class="active" href="#" data-toggle="modal" data-target="#popupRegister">Register</a></li>
+                            <li><a href="#" data-toggle="modal" data-target="#popupLogin">Sign In</a></li>
                             <li><a href="#">?</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
