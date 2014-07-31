@@ -208,6 +208,16 @@ p {
     margin-right: 5px;
     padding: 3px;
 }
+/*menu profile*/
+#menuProfile li ul {
+    width: 182px;
+}
+#menuProfile > li ul li > a {
+    color: #575757;
+}
+#menuProfile li ul li.active > a {
+    color: #fff;
+}
 /*----------------------------
         Select chain
 -----------------------------*/
@@ -711,3 +721,9 @@ p {
     line-height: 17px;
 }
 .btn .cc {display: none;}
+
+/*user timeline*/
+.user-timeline {
+    margin: 20px auto;
+    width: 700px;
+}

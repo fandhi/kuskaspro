@@ -1,4 +1,7 @@
-<?php include 'inc_header.php'; ?>
+<?php
+include 'inc_header.php';
+include 'main-menu-before-login.php';
+?>
 
 <div class="wrap">
     <div id="effects" class="frame effects">

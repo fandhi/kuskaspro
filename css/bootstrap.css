@@ -5512,6 +5512,7 @@ a.thumbnail.active {
 
 .media-object {
   display: block;
+  width: 100%;
 }
 
 .media-heading {
@@ -5520,6 +5521,7 @@ a.thumbnail.active {
 
 .media > .pull-left {
   margin-right: 10px;
+  width: 100px;
 }
 
 .media > .pull-right {
