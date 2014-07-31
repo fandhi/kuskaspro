@@ -727,3 +727,24 @@ p {
     margin: 20px auto;
     width: 700px;
 }
+.user-timeline .media-list form textarea {
+    max-height: 66px;
+    max-width: 500px;
+    width: 500px;
+}
+.user-timeline .media-list .date {
+    color: #B6B6B6;
+    font-size: 12px;
+    margin-left: 60px;
+}
+.user-timeline .media-list li {
+    border-bottom: 1px solid #D6D8D9;
+    padding-bottom: 10px;
+    position: relative;
+}
+.user-timeline .media-list .media-body {width: 500px;}
+.user-timeline .media-list li .link-report {
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+}
