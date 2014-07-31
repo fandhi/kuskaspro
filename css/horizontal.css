@@ -37,12 +37,18 @@
 	color: #ddd;
 	text-align: center;
 	cursor: pointer;
+        overflow: hidden;
 }
 .frame ul li.active {
 	color: #fff;
 	background: #a03232;
 }
-
+.frame ul li img {
+    width: 100%;
+    transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+}
 /* Scrollbar */
 .scrollbar {
 	margin: 10px 0 10px 0;

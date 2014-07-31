@@ -660,9 +660,54 @@ p {
     height: 540px;
     overflow: hidden;
 }
+#category .col-md-4 {margin-bottom: 30px;}
+.list-category {
+    background: rgba(149, 172, 231,.5);
+    height: 250px;
+    line-height: 245px;
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.list-category:hover {
+    line-height: 20px;
+}
+.list-category h3 {
+    display: inline-block;
+    line-height: 30px;
+    margin: 10px 60px 30px;
+    max-height: 80px;
+    vertical-align: middle;
+    height: auto;
+}
+.list-category hr {
+    border: 0;
+    margin: 0 0 20px;
+    height: 1px;
+    width: 100%;
+    background: -webkit-gradient(radial,60% 100%,0,60% 100%,100,color-stop(0%,#fff),color-stop(100%,rgba(255,255,255,0)));
+    background: -webkit-radial-gradient(60% 100%,#fff,rgba(255,255,255,0));
+    background: -moz-radial-gradient(60% 100%,#fff,rgba(255,255,255,0));
+    background: -o-radial-gradient(60% 100%,#fff,rgba(255,255,255,0));
+    background: radial-gradient(60% 100%,#fff,rgba(255,255,255,0));
+}
+.list-category .details {
+    color: #fff;
+    line-height: 20px;
+    margin: 0 30px;
+    -webkit-transition: opacity .8s;
+    -moz-transition: opacity .8s;
+    -o-transition: opacity .8s;
+    transition: opacity .8s;
+}
+.list-category:hover .details {
+    opacity: 1;
+}
 .list-category .btn {
-    padding: 0;
-    border: none;
     line-height: 17px;
 }
 .btn .cc {display: none;}

@@ -36,12 +36,21 @@
                         <form class="form-modal" method="post" action="" name="loginForm">
                             <p><input type="text" class="span3 form-control" name="email" id="email" placeholder="Enter Email" value=""></p>
                             <p><input type="password" class="span3 form-control" id="loginPassword" name="loginPassword" placeholder="Enter Password"></p>
-                            <p><div class="checkbox">
-                                <label>
-                                    <input type="checkbox" value="remember-me"> Remember me next time
-                                </label>
-                            </div></p>
-                            <p><button type="submit" class="btn btn-success btn-block text-center">Sign in</button> </p>
+                            <p>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" value="remember-me"> Remember me next time
+                                    </label>
+                                </div>
+                            </p>
+                            <p>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" value="keep-login"> Keep Login
+                                    </label>
+                                </div>
+                            </p>
+                            <p><button type="button" class="btn btn-success btn-block text-center" onclick="window.location = 'landing-page-1.php';">Sign in</button> </p>
                             <p class="text-center"><a href="">Forgot Password</a></p>
                         </form>
                     </div>
