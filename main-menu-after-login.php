@@ -30,7 +30,7 @@
             <ul id="menuProfile" class="nav navbar-nav navbar-right">
                 <li class="dropdown"><a class="active dropdown-toggle" data-toggle="dropdown" href="#">Katharine Hepburn <span class="caret"></span></a>
                     <ul class="dropdown-menu inverse-theme">
-                        <li class="active"><a href="profile.php">Profile</a></li>
+                        <li><a href="profile.php">Profile</a></li>
                         <li><a href="dashboard.php">Dashboard</a></li>
                         <li><a href="./">sign out</a></li>
                     </ul>

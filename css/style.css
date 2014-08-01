@@ -27,7 +27,7 @@ h2 {
 	display: block;
 	width: 553px;
 	height: 96px;
-	background: #fff url(../images/btn-demo.png) no-repeat center center;
+	background: #fff;
 	margin: 0px auto 65px auto;
 }
 hr.header-line {
@@ -292,17 +292,17 @@ article {
 	top: 4px;
 }
 footer {
-	/*background: url(../images/logo-intersog.png) no-repeat center left;*/
+	background: #5c6162;
 	height: 80px;
 	line-height: 90px;
 	text-align: center;
-	color: #5c6162;
+	color: #edecec;
 	padding-left: 95px;
+        margin-top: 50px;
 }
 footer:after {
 	content: '';
 	float: right;
-	/*background: url(../images/logo-dart117.png) no-repeat center right;*/
 	width: 95px;
 	height: 80px;
 	margin-right: 20px;
