@@ -2,21 +2,31 @@
 include 'inc_header.php';
 include 'main-menu-before-login.php';
 ?>
-<div class="row">
-    <div class="">
-        <form class="form-center" method="post" action="" name="loginForm">
-            <p><input type="text" class="span3 form-control" name="email" id="email" placeholder="Enter Email" value=""></p>
-            <p><input type="password" class="span3 form-control" id="loginPassword" name="loginPassword" placeholder="Enter Password"></p>
+<div class="container">
+    <div class="row">
+        <div class="section-reg-sign">
+            <form class="form-center form-horizontal" method="post" action="" name="loginForm" role="form">
+                <div class="form-group has-error">
+                    <input type="text" class="form-control" name="email" id="email" placeholder="Enter Email" value="">
+                    <span class="control-label">This field is required.</span>
+                </div>
+                <div class="form-group has-error">
+                    <input type="password" class="form-control" id="loginPassword" name="loginPassword" placeholder="Enter Password">
+                    <span class="control-label">This field is required.</span>
+                </div>
 
-            <div class="checkbox">
-                <label>
-                    <input type="checkbox" value="keep-login"> Keep Login
-                </label>
-            </div>
+                <div class="form-group">
+                    <label class="checkbox">
+                        <input type="checkbox" value="keep-login"> Keep Login
+                    </label>
+                </div>
 
-            <p><button type="button" class="btn btn-success btn-block text-center" onclick="window.location = 'landing-page-1.php';">Sign in</button> </p>
-            <p class="text-center"><a href="">Forgot Password</a></p>
-        </form>
-    </div>
-</div><!--end row-->
+                <div class="form-group">
+                    <button type="button" class="btn btn-success btn-block text-center" onclick="window.location = 'landing-page-1.php';">Sign in</button>
+                </div>
+                <p class="form-group text-center"><a href="">Forgot Password</a></p>
+            </form>
+        </div>
+    </div><!--end row-->
+</div>
 <?php include 'inc_footer.php'; ?>

@@ -1,7 +1,6 @@
             <footer id="footer">
                 Copyright @2014 Kuskas
             </footer>
-        </div>
         
         <script type="text/javascript" src="js/jquery_1.9.1.js"></script>
         <script type="text/javascript" src="js/bootstrap.js"></script>

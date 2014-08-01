@@ -14,5 +14,5 @@
         <link href="css/horizontal.css" rel="stylesheet">
     </head>
     <body class="theme-style blue-theme">
-        <div class="container">
+        
             
