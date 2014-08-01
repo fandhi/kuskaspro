@@ -6,9 +6,10 @@ include 'main-menu-before-login.php';
     <div class="row">
         <div class="panel">
             <form class="form-center form-horizontal" method="post" action="" name="loginForm" role="form">
-                <div class="form-group has-error">
+                <label class="append_bottom_2">Log in and find the expert</label>
+                <div class="form-group">
                     <input type="text" class="form-control" name="email" id="email" placeholder="Enter Email" value="">
-                    <span class="control-label">This field is required.</span>
+                    <!--<span class="control-label">This field is required.</span>-->
                 </div>
                 <div class="form-group has-error">
                     <input type="password" class="form-control" id="loginPassword" name="loginPassword" placeholder="Enter Password">
@@ -18,9 +19,9 @@ include 'main-menu-before-login.php';
                 <div class="col-sm-4 prefix_0">
                     <button type="button" class="btn btn-success btn-block text-center" onclick="window.location = 'landing-page-1.php';">Sign in</button>
                 </div>
-                <div class="col-sm-6 col-xs-push-1">
+                <div class="col-sm-8 col-xs-push-1 prefix_0">
                     <label class="checkbox">
-                        <input type="checkbox" value="keep-login"> Keep Login
+                        <input type="checkbox" value="keep-login"> Keep me logged in
                     </label>
                 </div>
                 </div>
