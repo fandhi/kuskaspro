@@ -6,7 +6,7 @@ include 'main-menu-before-login.php';
     <div class="row">
         <div class="panel">
             <form class="form-center form-horizontal" method="post" action="" name="loginForm" role="form">
-                <label class="append_bottom_2">Log in and find the expert</label>
+                <h3 class="append_bottom_3 text-center">Log in and find the expert</h3>
                 <div class="form-group">
                     <input type="text" class="form-control" name="email" id="email" placeholder="Enter Email" value="">
                     <!--<span class="control-label">This field is required.</span>-->
@@ -25,7 +25,7 @@ include 'main-menu-before-login.php';
                     </label>
                 </div>
                 </div>
-                <p class="form-group text-center clearfix"><a href="">Forgot Password</a></p>
+                <p class="form-group clearfix"><a href="">Forgot Password</a></p>
             </form>
         </div>
     </div><!--end row-->
