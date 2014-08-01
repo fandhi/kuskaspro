@@ -752,12 +752,3 @@ p {
     right: 0px;
     position: absolute;
 }
-/*section-reg-sign
-----------------------*/
-.section-reg-sign {
-    border: 1px solid rgba(235, 235, 235,.5);
-    margin-left: 15px;
-    margin-right: 15px;
-    padding: 0px 0 30px;
-    width: auto;
-}

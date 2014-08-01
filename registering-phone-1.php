@@ -4,7 +4,7 @@ include 'main-menu-before-login.php';
 ?>
 <div class="container">
     <div class="row">
-        <div class="section-reg-sign">
+        <div class="panel">
             <form class="form-center" method="post" action="" name="registerForm" role="form">
                 <label>Input phone number</label>
                 <div class="form-inline append_bottom_4 downfix_2">
