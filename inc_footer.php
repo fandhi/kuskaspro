@@ -1,5 +1,5 @@
             <footer id="footer">
-                Copyright @2014 Kuskas
+                Copyright &copy;2014 Kuskas
             </footer>
         
         <script type="text/javascript" src="js/jquery_1.9.1.js"></script>
