@@ -32,7 +32,7 @@
                     <li class="dropdown"><a class="active dropdown-toggle" data-toggle="dropdown" href="#">Katharine Hepburn <span class="caret"></span></a>
                         <ul class="dropdown-menu inverse-theme">
                             <li><a href="profile.php">Profile</a></li>
-                            <li><a href="dashboard.php">Dashboard</a></li>
+                            <li><a href="dashboard-mailbox.php">Dashboard</a></li>
                             <li><a href="./">sign out</a></li>
                         </ul>
                     </li>
