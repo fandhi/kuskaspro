@@ -22,13 +22,13 @@ include 'main-menu-after-login.php';
                         <td width="25%">Your phone number</td>
                         <td width="5%">:</td>
                         <td width="50%">+6281234567890</td>
-                        <td width="20%"><a class="" data-toggle="modal" data-target="#changeNumberModal" href="">Change</a></td>
+                        <td width="20%"><button class="btn btn-default" type="button" onclick="window.location='change-number.php';">Change</button></td>
                     </tr>
                     <tr>
                         <td>status</td>
                         <td>:</td>
                         <td>unverified</td>
-                        <td><a href="">Verify</a></td>
+                        <td><button class="btn btn-default" type="button" onclick="window.location='verify-code.php';">Verify</button></td>
                     </tr>
                 </tbody>
             </table>

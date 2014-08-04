@@ -3,49 +3,53 @@ include 'inc_header.php';
 include 'main-menu-after-login.php';
 ?>
 <div class="container">
-    <div class="row">
-        <div class="col-sm-5 col-md-3">
+    <div class="row append_bottom_2 css3-gradient1">
+        <div class="col-sm-6 col-md-3">
             <div class="thumbnail">
                 <img src="img/content/profile/stock-photo-business-woman-portrait-crossed-arms-128709044.jpg" alt="stock-photo-business-woman-portrait-crossed-arms-128709044"/>
             </div>
         </div>
-        <div class="col-xs-12 col-md-9">
-            <table class="table col-sm-5 b">
-                <tbody>
-                    <tr>
-                        <td>Expertise</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Salary Range</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Name</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Age</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Gender</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Location</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Contact</td>
-                        <td></td>
-                    </tr>
-                </tbody>
-            </table>
-            <div class="col-sm-7">
-                Description
+        <div class="col-sm-6 col-md-9">
+            <div class="col-sm-12 col-md-6">
+                <table class="table  b">
+                    <tbody>
+                        <tr>
+                            <td>Expertise</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Salary Range</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Name</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Age</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Gender</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Location</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Contact</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <h4>Description</h4>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
             </div>
         </div>
+        <p class="clearfix"></p>
     </div><!--end row-->
     <div class="row">
         <div class="user-timeline">

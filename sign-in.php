@@ -25,7 +25,7 @@ include 'main-menu-before-login.php';
                     </label>
                 </div>
                 </div>
-                <p class="form-group clearfix"><a href="">Forgot Password</a></p>
+                <p class="form-group clearfix"><a href="forgot-password.php">Forgot Password</a></p>
             </form>
         </div>
     </div><!--end row-->
