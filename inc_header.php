@@ -13,6 +13,7 @@
         <link href="css/style-themes.css" rel="stylesheet">
         <link href="css/blue-theme.css" rel="stylesheet">
         <link href="css/horizontal.css" rel="stylesheet">
+        <link href="css/star-rating.css" rel="stylesheet">
     </head>
     <body class="theme-style blue-theme">
         

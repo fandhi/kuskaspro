@@ -19,6 +19,8 @@ $(document).ready(function() {
     })
     //Initialize Bootstrap Switch.
     $("input[type='checkbox'][name='onoff']").bootstrapSwitch();
+    // initialize with defaults rating stars
+    $("#input-id").rating();
 });//END DOCUMENT
 
 //SELECT CHAIN

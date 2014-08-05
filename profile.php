@@ -11,6 +11,10 @@ include 'main-menu-after-login.php';
         </div>
         <div class="col-sm-6 col-md-9">
             <div class="col-sm-12 col-md-6">
+                <h4>Description</h4>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+            </div>
+            <div class="col-sm-12 col-md-6">
                 <table class="table  b">
                     <tbody>
                         <tr>
@@ -44,24 +48,37 @@ include 'main-menu-after-login.php';
                     </tbody>
                 </table>
             </div>
-            <div class="col-sm-12 col-md-6">
-                <h4>Description</h4>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-            </div>
         </div>
         <p class="clearfix"></p>
     </div><!--end row-->
     <div class="row">
-        <div class="user-timeline">
+        <div class="col-md-3">
+            <h5>Customer ratings</h5>
+            <div class="col-xs-">
+                
+            </div>
+            <div class="text-center">
+                <p><button class="btn" type="button">Mail</button></p>
+                <p>or</p>
+                <p><button class="btn" type="button">Call</button></p>
+            </div>
+        </div>
+        <div class="user-timeline col-md-9">
             <ul class="media-list">
                 <li class="media">
                     <a class="pull-left" href="#">
                         <img class="img-circle" src="img/content/profile/creative-person.jpg" alt="...">
                     </a>
                     <div class="media-body">
-                        <h4 class="media-heading"><a class="" href=""><b>User a</b></a><span class="date">02.12.14 13:46</span></h4>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit</p>
-                    <a class="link-report btn btn-sm btn-warning" href="">report</a>
+                        <form class="form-horizontal col-md-12" method="" action="" role="form">
+                            <div class="form-group">
+                                <textarea rows="4" class="form-control" placeholder="Leave Comment"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label class="label-rating">Rating :</label>
+                                <input id="input-2" class="rating col-md-5" data-min="0" data-max="5" data-step="0.1" data-size="xs">
+                            </div>
+                        </form>
                     </div>
                 </li>
                 <li class="media">
@@ -71,7 +88,7 @@ include 'main-menu-after-login.php';
                     <div class="media-body">
                         <h4 class="media-heading"><a class="" href=""><b>User a</b></a><span class="date">02.12.14 13:46</span></h4>
                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit</p>
-                    <a class="link-report btn btn-sm btn-warning" href="">report</a>
+                        <a class="link-report btn btn-sm btn-warning" href="">report</a>
                     </div>
                 </li>
                 <li class="media">
@@ -81,7 +98,7 @@ include 'main-menu-after-login.php';
                     <div class="media-body">
                         <h4 class="media-heading"><a class="" href=""><b>User b</b></a><span class="date">02.12.14 13:46</span></h4>
                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit</p>
-                    <a class="link-report btn btn-sm btn-warning" href="">report</a>
+                        <a class="link-report btn btn-sm btn-warning" href="">report</a>
                     </div>
                 </li>
                 <li class="media">
@@ -91,47 +108,11 @@ include 'main-menu-after-login.php';
                     <div class="media-body">
                         <h4 class="media-heading"><a class="" href=""><b>User c</b></a><span class="date">02.12.14 13:46</span></h4>
                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit</p>
-                    <a class="link-report btn btn-sm btn-warning" href="">report</a>
+                        <a class="link-report btn btn-sm btn-warning" href="">report</a>
                     </div>
                 </li>
             </ul>
-            <div id="respond">
-                <div id="addCommentSection">
-                    <h4 id="leavereply">Add Comment</h4>
-
-                    <form id="" class="form-horizontal" action="" method="post">
-                        <div class="form-group col-md-5">
-                        <div class="form-group">
-                            <input class="form-control col-sm-2 " type="text" name="author" id="author" value="" placeholder="Name">
-                        </div>
-
-                        <div class="form-group">
-                            <input class="form-control" type="text" name="email" id="email" value="" placeholder="Email (will not be published)">
-                        </div>
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control" name="comment" id="comment" rows="10" tabindex="4"></textarea>
-                        </div>
-
-                        <p class="text-info form-group"><small><b>HTML is escaped automatically.</b> Surround code blocks with <b>&lt;pre&gt;&lt;/pre&gt;</b> for readability.<br>
-                                Perks:&nbsp;&nbsp;&nbsp;<b>**bold**</b>&nbsp;&nbsp;&nbsp;<i>__italics__</i>&nbsp;&nbsp;&nbsp;<span style="color:#008DE6">[some text](http://example.com)</span> for links</small></p>
-
-                                <div class="form-group">
-                            <input name="submit" type="submit" id="submit" tabindex="5" value="Submit Comment" class="btn btn-primary">
-                            <input type="hidden" name="comment_post_ID" value="1200" id="comment_post_ID">
-                            <input type="hidden" name="comment_parent" id="comment_parent" value="0">
-
-                            <div class="cancel-comment-reply">
-                                <a rel="nofollow" id="cancel-comment-reply-link" href="" style="display:none;">Cancel Reply</a>
-                            </div>
-                        </div>
-
-                        <p style="display: none;"><input type="hidden" id="" name="" value=""></p>
-                        <p style="display: none;"><input type="hidden" id="" name="" value=""></p>
-
-                    </form>
-                </div>
-            </div><!--end respond-->
+            
         </div>
     </div>
     <!--end row-->
