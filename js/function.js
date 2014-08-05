@@ -17,8 +17,8 @@ $(document).ready(function() {
         }
 
     })
-
-
+    //Initialize Bootstrap Switch.
+    $("input[type='checkbox'][name='onoff']").bootstrapSwitch();
 });//END DOCUMENT
 
 //SELECT CHAIN

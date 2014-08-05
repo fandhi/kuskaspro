@@ -6,7 +6,7 @@ include 'main-menu-before-login.php';
     <div class="row">
         <div class="panel">
             <form class="form-center" method="post" action="" name="registerForm" role="form">
-                <label>Input phone number</label>
+                <h3 class="append_bottom_3">Step 1</h3>
                 <div class="form-inline append_bottom_4 downfix_2">
                     <div class="form-group col-xs-3">
                         <input type="text" class="form-control" id="" name="" placeholder="">

@@ -6,7 +6,7 @@ include 'main-menu-before-login.php';
     <div class="row">
         <div class="panel">
             <form class="form-center" method="post" action="" name="registerForm" role="form">
-                <label>Create Password</label>
+                <h3 class="append_bottom_3">Step 3</h3>
                 <div class="form-inline append_bottom_4 downfix_2">
                     <div class="form-group has-error col-xs-9">
                         <input type="password" class="form-control" id="" name="" placeholder="Enter password">

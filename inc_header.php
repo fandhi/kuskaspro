@@ -9,6 +9,7 @@
         <title>Title | Kuskas</title>
         <link href="css/style.css" rel="stylesheet">
         <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/bootstrap-switch.css" rel="stylesheet">
         <link href="css/style-themes.css" rel="stylesheet">
         <link href="css/blue-theme.css" rel="stylesheet">
         <link href="css/horizontal.css" rel="stylesheet">

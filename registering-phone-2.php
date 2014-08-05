@@ -6,7 +6,7 @@ include 'main-menu-before-login.php';
     <div class="row">
         <div class="panel">
             <form class="form-center form-horizontal" method="post" action="" name="registerForm" role="form">
-                <label>Input verification code</label>
+                <h3 class="append_bottom_3">Step 2</h3>
                 <div class="form-group has-error">
                     <input type="text" class="form-control" id="" name="" placeholder="Enter verification code">
                     <span class="control-label">This field is required.</span>
