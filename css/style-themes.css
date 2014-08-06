@@ -760,7 +760,7 @@ p {
     box-sizing: border-box;
     display: inline-block;
     padding: 10px;
-    width: 87%;
+    width: 85%;
     border-radius: 5px;
     overflow: visible;
     position: relative;
@@ -810,12 +810,15 @@ p {
 }
 .user-timeline .label-rating {
     float: left;
-    width: 9%;
+    width: 15%;
 }
 .user-timeline .star-rating {
     float: left;
     line-height: 20px;
 }
+
+/*cos-ratings*/
+.cos-ratings .progress {padding-left: 0px;padding-right: 0px;}
 /*Comment*/
 #respond {
     margin-top: 90px;

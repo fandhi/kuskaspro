@@ -4,46 +4,55 @@ include 'main-menu-after-login.php';
 ?>
 <div class="container">
     <div class="row append_bottom_2 css3-gradient1">
-        <div class="col-sm-6 col-md-3">
+        <div class="col-sm-6 col-md-4">
             <div class="thumbnail">
                 <img src="img/content/profile/stock-photo-business-woman-portrait-crossed-arms-128709044.jpg" alt="stock-photo-business-woman-portrait-crossed-arms-128709044"/>
             </div>
         </div>
-        <div class="col-sm-6 col-md-9">
+        <div class="col-sm-6 col-md-8">
             <div class="col-sm-12 col-md-6">
                 <h4>Description</h4>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit</p>
+                <a href="">Read more</a>
             </div>
             <div class="col-sm-12 col-md-6">
-                <table class="table  b">
+                <table class="table-custom highlight">
                     <tbody>
                         <tr>
+                            <td>Category</td>
+                            <td>IT</td>
+                        </tr>
+                        <tr>
                             <td>Expertise</td>
-                            <td></td>
+                            <td>Sys Admin</td>
                         </tr>
                         <tr>
                             <td>Salary Range</td>
-                            <td></td>
+                            <td>Hourly</td>
                         </tr>
                         <tr>
-                            <td>Name</td>
-                            <td></td>
+                            <td>Salary</td>
+                            <td>IDR 5000000</td>
                         </tr>
                         <tr>
                             <td>Age</td>
-                            <td></td>
+                            <td>35</td>
                         </tr>
                         <tr>
                             <td>Gender</td>
-                            <td></td>
+                            <td>Male</td>
                         </tr>
                         <tr>
-                            <td>Location</td>
-                            <td></td>
+                            <td>Province</td>
+                            <td>DKI Jakarta</td>
                         </tr>
                         <tr>
-                            <td>Contact</td>
-                            <td></td>
+                            <td>City</td>
+                            <td>Jakarta Timur</td>
+                        </tr>
+                        <tr>
+                            <td>Accepted</td>
+                            <td>-</td>
                         </tr>
                     </tbody>
                 </table>
@@ -52,10 +61,59 @@ include 'main-menu-after-login.php';
         <p class="clearfix"></p>
     </div><!--end row-->
     <div class="row">
-        <div class="col-md-3">
-            <h5>Customer ratings</h5>
-            <div class="col-xs-">
-                
+        <div class="col-md-4">
+            <h4>Customer ratings</h4>
+            <div class="cos-ratings">
+                <div class="row">
+                    <div class="col-md-5">
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                    </div>
+                    <div class="progress col-md-6">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">100%</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                    </div>
+                    <div class="progress col-md-6">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">80%</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                    </div>
+                    <div class="progress col-md-6">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">60%</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                    </div>
+                    <div class="progress col-md-6">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">30%</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-1">
+                        <span class="glyphicon glyphicon-star"></span>
+                    </div>
+                    <div class="progress col-md-6">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">10%</div>
+                    </div>
+                </div>
             </div>
             <div class="text-center">
                 <p><button class="btn" type="button">Mail</button></p>
@@ -63,7 +121,7 @@ include 'main-menu-after-login.php';
                 <p><button class="btn" type="button">Call</button></p>
             </div>
         </div>
-        <div class="user-timeline col-md-9">
+        <div class="user-timeline col-md-8">
             <ul class="media-list">
                 <li class="media">
                     <a class="pull-left" href="#">
@@ -75,8 +133,11 @@ include 'main-menu-after-login.php';
                                 <textarea rows="4" class="form-control" placeholder="Leave Comment"></textarea>
                             </div>
                             <div class="form-group">
-                                <label class="label-rating">Rating :</label>
-                                <input id="input-2" class="rating col-md-5" data-min="0" data-max="5" data-step="0.1" data-size="xs">
+                                <div class="col-md-10">
+                                    <label class="label-rating">Rating :</label>
+                                    <input id="input-2" class="rating " data-min="0" data-max="5" data-step="0.1" data-size="xs">
+                                </div>
+                                <input type="submit" class="btn btn-primary" value="Submit">
                             </div>
                         </form>
                     </div>
@@ -112,7 +173,7 @@ include 'main-menu-after-login.php';
                     </div>
                 </li>
             </ul>
-            
+
         </div>
     </div>
     <!--end row-->
