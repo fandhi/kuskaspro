@@ -14,7 +14,7 @@ include 'main-menu-after-login.php';
         </div>
         <div class="col-sm-8 col-md-9">
             <h3>Change / verify phone number</h3>
-            <table class="table">
+            <table class="table-custom">
                 <tbody>
                     <tr>
                         <td width="25%">Your phone number</td>

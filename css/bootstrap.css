@@ -272,12 +272,12 @@ table {
           box-sizing: border-box;
 }
 .prefix_0 {padding-left:0px !important;}
-.prefix_1 {padding-left:10px;}
-.prefix_2 {padding-left:20px;}
-.prefix_3 {padding-left:30px;}
-.prefix_4 {padding-left:40px;}
-.prefix_5 {padding-left:50px;}
-.prefix_6 {padding-left:60px;}
+.prefix_1 {padding-left:10px !important;}
+.prefix_2 {padding-left:20px !important;}
+.prefix_3 {padding-left:30px !important;}
+.prefix_4 {padding-left:40px !important;}
+.prefix_5 {padding-left:50px !important;}
+.prefix_6 {padding-left:60px !important;}
 
 .pasfix_1 {padding-right:10px;}
 .pasfix_2 {padding-right:20px;}

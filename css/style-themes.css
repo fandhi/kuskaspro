@@ -5,10 +5,10 @@
 }
 
 body {
-    font-family: 'OpenSans',Arial,sans-serif;
+    font-family: 'Lucida Grande';
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
-    font-family: 'OpenSans',Arial,sans-serif;
+    font-family: 'Lucida Grande';
 }
 .theme-style textarea:focus, .theme-style input:focus, .theme-style button, .theme-style .button{
 /*    outline: 0 none;
@@ -203,7 +203,7 @@ p {
 }
 .theme-style .navbar-form .form-group .glyphicon {
     position: absolute;
-    right: 7px;
+    left: 7px;
     top: 50%;
     margin-top: -7px;
 }
