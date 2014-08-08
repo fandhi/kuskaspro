@@ -23,14 +23,6 @@
                         <a href="">Browse</a>
                     </div>
                 </form>
-                <form class="navbar-form navbar-left form-inline" role="form" name="listmenu0">
-                    <div class="form-group">
-                        <select class="form-control" name="firstlevel"></select>
-                    </div>
-                    <div class="form-group">
-                        <select class="form-control" name="secondlevel"></select>
-                    </div>
-                </form>
 
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="registering.php">Register</a></li>
