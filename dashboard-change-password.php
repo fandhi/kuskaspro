@@ -16,16 +16,10 @@ include 'main-menu-after-login.php';
             <h3>Change Password</h3>
             <form class="form-horizontal col-md-4" method="" action="post" role="form">
                 <div class="form-group">
-                    <input class="form-control" type="password" name="" value="" placeholder="Current password"/>
+                    <input class="form-control" type="email" name="" value="" placeholder="Input Your Email"/>
                 </div>
                 <div class="form-group">
-                    <input class="form-control" type="password" name="" value="" placeholder="New password"/>
-                </div>
-                <div class="form-group append_bottom_3">
-                    <input class="form-control" type="password" name="" value="" placeholder="New password"/>
-                </div>
-                <div class="form-group">
-                    <input class="btn btn-success" type="button" name="" value="Save"/>
+                    <input class="btn btn-success" type="button" name="" value="Send"/>
                 </div>
             </form>
         </div>
