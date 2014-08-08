@@ -8,8 +8,6 @@
         <script type="text/javascript" src="js/modernizr.js"></script>
         <script type="text/javascript" src="js/sly.js"></script>
         <script type="text/javascript" src="js/horizontal.js"></script>
-        <script type="text/javascript" src="js/jquery_chainedmenu.js"></script>
-        <script type="text/javascript" src="js/jquery_config-select.js"></script>
         <script type="text/javascript" src="js/star-rating.js"></script>
         <script type="text/javascript" src="js/function.js"></script>
     </body>

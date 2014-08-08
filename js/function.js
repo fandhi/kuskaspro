@@ -23,8 +23,5 @@ $(document).ready(function() {
     $("#input-id").rating();
 });//END DOCUMENT
 
-//SELECT CHAIN
-window.onload = function() {
-    initListGroup('chainedmenu', document.listmenu0.firstlevel, document.listmenu0.secondlevel, document.listmenu0.thirdlevel, 'savestate')
-};
+
 

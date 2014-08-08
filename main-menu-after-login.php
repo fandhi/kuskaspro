@@ -23,14 +23,7 @@
                         <a href="">Browse</a>
                     </div>
                 </form>
-                <form class="navbar-form navbar-left form-inline" role="form" name="listmenu0">
-                    <div class="form-group">
-                        <select class="form-control" name="firstlevel"></select>
-                    </div>
-                    <div class="form-group">
-                        <select class="form-control" name="secondlevel"></select>
-                    </div>
-                </form>
+                
                 <ul id="menuProfile" class="nav navbar-nav navbar-right">
                     <li class="dropdown"><a class="active dropdown-toggle" data-toggle="dropdown" href="#">Katharine Hepburn <span class="caret"></span></a>
                         <ul class="dropdown-menu inverse-theme">
