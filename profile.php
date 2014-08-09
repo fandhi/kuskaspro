@@ -147,7 +147,7 @@ include 'main-menu-after-login.php';
                         <img class="img-circle" src="img/content/profile/imgres.jpg" alt="...">
                     </a>
                     <div class="media-body">
-                        <h4 class="media-heading"><a class="" href=""><b>User a</b></a><span class="date">02.12.14 13:46</span></h4>
+                        <h4 class="media-heading"><b>User a</b><span class="date">02.12.14 13:46</span></h4>
                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit</p>
                         <a class="link-report btn btn-sm btn-warning" href="">report</a>
                     </div>
@@ -157,7 +157,7 @@ include 'main-menu-after-login.php';
                         <img class="img-circle" src="img/content/profile/user.jpg" alt="...">
                     </a>
                     <div class="media-body">
-                        <h4 class="media-heading"><a class="" href=""><b>User b</b></a><span class="date">02.12.14 13:46</span></h4>
+                        <h4 class="media-heading"><b>User b</b><span class="date">02.12.14 13:46</span></h4>
                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit</p>
                         <a class="link-report btn btn-sm btn-warning" href="">report</a>
                     </div>
@@ -167,7 +167,7 @@ include 'main-menu-after-login.php';
                         <img class="img-circle" src="img/content/profile/images.jpg" alt="...">
                     </a>
                     <div class="media-body">
-                        <h4 class="media-heading"><a class="" href=""><b>User c</b></a><span class="date">02.12.14 13:46</span></h4>
+                        <h4 class="media-heading"><b>User c</b><span class="date">02.12.14 13:46</span></h4>
                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit</p>
                         <a class="link-report btn btn-sm btn-warning" href="">report</a>
                     </div>
