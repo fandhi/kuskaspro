@@ -5,10 +5,11 @@
 }
 
 body {
-    font-family: 'Lucida Grande';
+    /*font-family: 'Lucida Grande';*/
+    font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
-    font-family: 'Lucida Grande';
+    font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
 }
 .theme-style textarea:focus, .theme-style input:focus, .theme-style button, .theme-style .button{
 /*    outline: 0 none;
@@ -36,7 +37,6 @@ p {
 }
 .theme-style .btn {
     border: none;
-    border-radius: 0px;
     text-align: left;
     padding: 9px 13px;
     color: #fff;
@@ -181,7 +181,6 @@ p {
 /* Forms */
 
 .theme-style .form-control {
-    border-radius: 0px;
     color: #5c6162;
 }
 .theme-style textarea.form-control {
@@ -251,8 +250,8 @@ p {
 }
 .theme-style .navbar.inverse-theme .navbar-nav > li > a,
 .theme-style .navbar.inverse-theme .navbar-brand {
-    padding-top: 13px;
-    padding-bottom: 13px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 .theme-style .navbar-toggle {
     margin-left: 15px;
@@ -271,7 +270,9 @@ p {
     color: #fff;
     border-radius: 0px;
     border: none;
+    font-weight: bold;
 }
+.theme-style .navbar-default a {color: #fff;}
 .theme-style .navbar-default .navbar-nav > .active > a,
 .theme-style .navbar-default .navbar-nav > .active > a:hover,
 .theme-style .navbar-default .navbar-nav > .active > a:focus {
@@ -294,9 +295,11 @@ p {
 .theme-style .navbar .navbar-form {
     margin-left: 0;
     margin-right: 0;
+    margin-top: 20px;
+    margin-bottom: 22px;
 }
 .theme-style .navbar-default.inverse-theme .navbar-collapse {
-    background-color: #26262c;
+    /*background-color: #26262c;*/
 }
 .theme-style .navbar-default .navbar-collapse,
 .theme-style .navbar-default .navbar-form {
@@ -349,7 +352,7 @@ p {
 }
 .theme-style .list-group-item,.list-group-item:first-child,
 .theme-style .list-group-item:last-child {
-    border-radius: 0;
+    /*border-radius: 0;*/
 }
 .theme-style a.list-group-item {
     border: 1px solid #d6d8d9;
@@ -613,7 +616,6 @@ p {
 .theme-style .panel {
     border: 1px solid #D6D8D9;
     border-bottom-width: 3px;
-    border-radius: 0 0 1px 1px;
     box-shadow: none;
 }
 .theme-style .panel-heading {

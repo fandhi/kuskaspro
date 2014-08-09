@@ -19,39 +19,39 @@ include 'main-menu-after-login.php';
                 <table class="table-custom highlight">
                     <tbody>
                         <tr>
-                            <td>Category</td>
+                            <td><b>Category</b></td>
                             <td>IT</td>
                         </tr>
                         <tr>
-                            <td>Expertise</td>
+                            <td><b>Expertise</b></td>
                             <td>Sys Admin</td>
                         </tr>
                         <tr>
-                            <td>Salary Range</td>
+                            <td><b>Salary Range</b></td>
                             <td>Hourly</td>
                         </tr>
                         <tr>
-                            <td>Salary</td>
+                            <td><b>Salary</b></td>
                             <td>IDR 5000000</td>
                         </tr>
                         <tr>
-                            <td>Age</td>
+                            <td><b>Age</b></td>
                             <td>35</td>
                         </tr>
                         <tr>
-                            <td>Gender</td>
+                            <td><b>Gender</b></td>
                             <td>Male</td>
                         </tr>
                         <tr>
-                            <td>Province</td>
+                            <td><b>Province</b></td>
                             <td>DKI Jakarta</td>
                         </tr>
                         <tr>
-                            <td>City</td>
+                            <td><b>City</b></td>
                             <td>Jakarta Timur</td>
                         </tr>
                         <tr>
-                            <td>Accepted</td>
+                            <td><b>Accepted</b></td>
                             <td>-</td>
                         </tr>
                     </tbody>

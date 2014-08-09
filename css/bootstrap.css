@@ -447,6 +447,7 @@ cite {  font-style: normal;}
 .text-left {  text-align: left;}
 .text-right {  text-align: right;}
 .text-center {  text-align: center!important;}
+.text-uppercase {text-transform: uppercase!important;}
 
 h1,
 h2,
