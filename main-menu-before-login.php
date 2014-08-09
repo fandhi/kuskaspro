@@ -20,7 +20,7 @@
                         <span class="glyphicon glyphicon-search"></span>
                     </div>
                     <div class="form-group">
-                        <a href="">Browse</a>
+                        <a class="text-uppercase" href="">Browse</a>
                     </div>
                 </form>
 
