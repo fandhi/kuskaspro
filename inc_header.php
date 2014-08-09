@@ -12,10 +12,11 @@
         <link href="css/bootstrap-switch.css" rel="stylesheet">
         <link href="css/style-themes.css" rel="stylesheet">
         <link href="css/blue-theme.css" rel="stylesheet">
+        <link href="css/green-theme.css" rel="stylesheet">
         <link href="css/horizontal.css" rel="stylesheet">
         <link href="css/star-rating.css" rel="stylesheet">
         <link href="css/docs.min.css" rel="stylesheet">
     </head>
-    <body class="theme-style blue-theme">
+    <body class="theme-style green-theme">
         
             

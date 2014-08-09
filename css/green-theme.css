@@ -1,0 +1,284 @@
+.green-theme article a {
+	color: #0FA9A0;
+	text-decoration: underline;
+}
+.green-theme article a:hover {
+	text-decoration: none;
+}
+.green-theme .btn-group-vertical.inverse-theme .btn-default:hover,
+.green-theme .btn-group-vertical.inverse-theme .btn-default:focus,
+.green-theme .btn-group-vertical.inverse-theme .btn-default:active,
+.green-theme .btn-group-vertical.inverse-theme .btn-default.active,
+.green-theme .btn-group-vertical.inverse-theme .open .dropdown-toggle.btn-default {
+    background-color: #404143;
+    border-color: #404143;
+    color: #fff;
+}
+.green-theme .btn-primary {
+    background-color: #0fa9a0;
+	border-color: #088780;	
+}
+.green-theme .btn-primary:hover,
+.green-theme .btn-primary:focus {
+    background-color: #088780;
+    border-color: #05746e;
+}
+.green-theme .btn-primary:active,
+.green-theme .btn-primary.active,
+.green-theme .open .dropdown-toggle.btn-primary {
+    background-color: #04726c;
+    border-color: #004a46;
+}
+.green-theme .btn-success {
+    background-color: #0fb97f;
+	border-color: #0b9968;	
+}
+.green-theme .btn-success:hover,
+.green-theme .btn-success:focus {
+    background-color: #07a16c;
+    border-color: #057851;
+}
+.green-theme .btn-success:active,
+.green-theme .btn-success.active,
+.green-theme .open .dropdown-toggle.btn-success {
+    background-color: #038257;
+    border-color: #025237;
+}
+.green-theme .btn-info {
+    background-color: #6ab4f3;
+	border-color: #588cb9;	
+}
+.green-theme .btn-info:hover,
+.green-theme .btn-info:focus {
+    background-color: #5296cf;
+    border-color: #487aa6;
+}
+.green-theme .btn-info:active,
+.green-theme .btn-info.active,
+.green-theme .open .dropdown-toggle.btn-info {
+    background-color: #3270a4;
+    border-color: #224f76;
+}
+.green-theme .btn-warning {
+    background-color: #f5cd40;
+	border-color: #ddb424;	
+}
+.green-theme .btn-warning:hover,
+.green-theme .btn-warning:focus {
+    background-color: #e9bd24;
+    border-color: #c9a217;
+}
+.green-theme .btn-warning:active,
+.green-theme .btn-warning.active,
+.green-theme .open .dropdown-toggle.btn-warning {
+    background-color: #d1a50c;
+    border-color: #b28d08;
+}
+.green-theme .btn-danger {
+    background-color: #ef4840;
+	border-color: #ce2e26;	
+}
+.green-theme .btn-danger:hover,
+.green-theme .btn-danger:focus {
+    background-color: #d8362e;
+    border-color: #ad1b14;
+}
+.green-theme .btn-danger:active,
+.green-theme .btn-danger.active,
+.green-theme .open .dropdown-toggle.btn-danger {
+    background-color: #af1c15;
+    border-color: #810f09;
+}
+.green-theme .dropdown-header {
+    background-color: #404143;
+}
+.green-theme .dropdown-menu > li > a:hover,
+.green-theme .dropdown-menu > li > a:focus {
+  background-color: #0fa9a0;
+}
+.green-theme .dropdown-menu.inverse-theme {
+  background-color: #076a65;
+  border-color: #076a65;
+}
+.green-theme .dropdown-menu.inverse-theme > li > a {
+    color: #fff;
+}
+.green-theme .dropdown-menu > .disabled > a:hover,
+.green-theme .dropdown-menu > .disabled > a:focus {
+    color: #96dad6;
+}
+/* Navbar */
+
+/*.green-theme .navbar-default {
+    background-color: #2db6f1;
+    border-bottom: 2px solid #0690cb;
+}
+.green-theme .navbar-default .navbar-nav > .active > a,
+.green-theme .navbar-default .navbar-nav > .active > a:hover,
+.green-theme .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #179dd6;
+}*/
+.green-theme .navbar-default {
+    background-color: #0fa9a0;
+    border-bottom: 2px solid #088780;
+}
+.green-theme .navbar-default .navbar-nav > .active > a,
+.green-theme .navbar-default .navbar-nav > .active > a:hover,
+.green-theme .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #088780;
+}
+.green-theme .navbar-default.inverse-theme .navbar-nav > .active > a,
+.green-theme .navbar-default.inverse-theme .navbar-nav > .active > a:hover,
+.green-theme .navbar-default.inverse-theme .navbar-nav > .active > a:focus,
+.green-theme .navbar-default.inverse-theme .navbar-nav > li > a:hover,
+.green-theme .navbar-default.inverse-theme .navbar-nav > li > a:focus,
+.green-theme .navbar-default.inverse-theme .navbar-nav > .open > a,
+.green-theme .navbar-default.inverse-theme .navbar-nav > .open > a:hover,
+.green-theme .navbar-default.inverse-theme .navbar-nav > .open > a:focus {
+    background-color: #0FA9A0;
+}
+.green-theme .navbar-default .navbar-nav > li > a:hover,
+.green-theme .navbar-default .navbar-nav > li > a:focus,
+.green-theme .navbar-default .navbar-nav > .open > a,
+.green-theme .navbar-default .navbar-nav > .open > a:hover,
+.green-theme .navbar-default .navbar-nav > .open > a:focus {
+	color: #fff;
+	background-color: #088780;
+}
+.green-theme .navbar-default.inverse-theme {
+    background-color: #383941;
+    border-bottom: none;
+}
+.green-theme .navbar-default.inverse-theme .nav .dropdown.open .dropdown-menu {
+	background-color: #e9e9e9;
+}
+.green-theme .navbar-default .navbar-toggle:hover,
+.green-theme .navbar-default .navbar-toggle:focus {
+  background-color: #088780;
+}
+.green-theme .navbar-default.inverse-theme .navbar-toggle:hover,
+.green-theme .navbar-default.inverse-theme .navbar-toggle:focus {
+  background-color: #0FA9A0;
+}
+/*.theme-style .nav-tabs > li > a {
+    color: #028cc7;
+}*/
+.green-theme .nav-tabs > li > a,
+.green-theme .nav-pills > li > a {
+    color: #088780;
+}
+.green-theme .nav-pills > li.active > a,
+.green-theme .nav-pills > li.active > a:hover,
+.green-theme .nav-pills > li.active > a:focus {
+    background-color: #088780;
+	color: #fff;
+}
+
+/* Navbar-form */
+
+.green-theme .navbar-form .form-group .glyphicon {
+	color: #0fa9a0;
+}
+.green-theme .inverse-theme .navbar-form .form-group .glyphicon {
+	color: #404143;
+}
+
+/* Progress bars*/
+
+.green-theme .progress .progress-bar{
+	background-color: #0fa9a0;
+}
+.green-theme .progress .progress-bar-success {
+	background-color: #6fbb41;
+}
+.green-theme .progress .progress-bar-info{
+	background-color: #4dcce7;
+}
+.green-theme .progress .progress-bar-warning{
+	background-color: #f0ad4e;
+}
+.green-theme .progress .progress-bar-danger{
+	background-color: #d44945;
+}
+.green-theme .progress .progress-bar:after{
+	background-color: #404143;
+}
+
+/* Lists */
+.green-theme .list-group-item.active,
+.green-theme .list-group-item.active:hover,
+.green-theme .list-group-item.active:focus,
+.green-theme a.list-group-item.active,
+.green-theme a.list-group-item.active:hover,
+.green-theme a.list-group-item.active:focus {
+    background-color: #0FA9A0;
+	border-color: #0FA9A0;
+	color: #fff;
+}
+.green-theme .inverse-theme .list-group-item.active,
+.green-theme .inverse-theme .list-group-item.active:hover,
+.green-theme .inverse-theme .list-group-item.active:focus,
+.green-theme .inverse-theme a.list-group-item.active,
+.green-theme .inverse-theme a.list-group-item.active:hover,
+.green-theme .inverse-theme a.list-group-item.active:focus {
+    background-color: #404143;
+	border-color: #404143;
+	color: #fff;
+}
+.green-theme .badge {
+	background-color: #0FA9A0;
+}
+.green-theme .active .badge {
+	color: #0FA9A0;
+	background-color: #fff;
+}
+.green-theme .inverse-theme .badge {
+	background-color: transparent;
+	color: #0FA9A0;
+}
+.green-theme .inverse-theme .active .badge {
+	color: #fff;
+	background-color: transparent;
+}
+/* Popover */
+.green-theme .popover {
+	background-color: #0fa9a0;
+}
+.green-theme .popover .arrow,
+.green-theme .popover .arrow:after {
+	border-top-color: #0fa9a0;
+}
+/* Datepicker */
+.green-theme .datepicker {
+	background-color: #404143;
+}
+/*.green-theme .datepicker .datepicker-days:before,
+.green-theme .datepicker .datepicker-days:after{
+    background-color: #404143;
+}*/
+.green-theme .datepicker thead {
+	background-color: #404143;
+}
+.green-theme .datepicker table tr td.day.active {
+  background: #0fa9a0;
+}
+.green-theme .datepicker thead tr:first-child th:hover,
+.green-theme .datepicker tfoot tr th:hover {
+  color: #0fa9a0;
+}
+.green-theme .datepicker table tr td span.active,
+.green-theme .datepicker table tr td span.active:hover,
+.green-theme .datepicker table tr td span.active.disabled,
+.green-theme .datepicker table tr td span.active.disabled:hover {
+  background: #0fa9a0;
+}
+
+/* Panel */
+
+.green-theme .panel-primary > .panel-heading {
+	background-color: #0fa9a0;
+}
+.green-theme .panel-primary.inverse-theme > .panel-heading {
+	background-color: #404143;
+}
+
