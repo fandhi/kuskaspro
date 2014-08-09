@@ -64,54 +64,55 @@ include 'main-menu-after-login.php';
         <div class="col-md-4">
             <h4>Customer ratings</h4>
             <div class="cos-ratings">
-                <div class="row">
-                    <div class="col-md-5">
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                    </div>
-                    <div class="progress col-md-6">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">100%</div>
-                    </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="total-ratings">5,0</div>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <h6 class="total-ratings-number">8,893,372</h6>
                 </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <span class="glyphicon glyphicon-star"></span> 5
+                        </div>
+                        <div class="progress col-md-8">
+                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">100%</div>
+                        </div>
                     </div>
-                    <div class="progress col-md-6">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">80%</div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <span class="glyphicon glyphicon-star"></span> 4
+                        </div>
+                        <div class="progress col-md-8">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">80%</div>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-3">
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <span class="glyphicon glyphicon-star"></span> 3
+                        </div>
+                        <div class="progress col-md-8">
+                            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">60%</div>
+                        </div>
                     </div>
-                    <div class="progress col-md-6">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">60%</div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <span class="glyphicon glyphicon-star"></span> 2
+                        </div>
+                        <div class="progress col-md-8">
+                            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">30%</div>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-2">
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                    </div>
-                    <div class="progress col-md-6">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">30%</div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-1">
-                        <span class="glyphicon glyphicon-star"></span>
-                    </div>
-                    <div class="progress col-md-6">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">10%</div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <span class="glyphicon glyphicon-star"></span> 1
+                        </div>
+                        <div class="progress col-md-8">
+                            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">10%</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -135,7 +136,7 @@ include 'main-menu-after-login.php';
                             <div class="form-group">
                                 <div class="col-md-10">
                                     <label class="label-rating">Rating :</label>
-                                    <input id="input-2" class="rating " data-min="0" data-max="5" data-step="0.1" data-size="xs">
+                                    <input id="star" class="rating " data-min="0" data-max="5" data-step="1" data-size="xs">
                                 </div>
                                 <input type="submit" class="btn btn-primary" value="Submit">
                             </div>

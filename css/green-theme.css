@@ -201,7 +201,7 @@
 	background-color: #d44945;
 }
 .green-theme .progress .progress-bar:after{
-	background-color: #404143;
+	/*background-color: #404143;*/
 }
 
 /* Lists */
