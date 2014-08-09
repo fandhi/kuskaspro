@@ -30,15 +30,22 @@ include 'main-menu-after-login.php';
             </form>
         </div>
         <div class="col-sm-8 col-md-9">
-            <ul class="media-list">
-                <li class="media">
+            <ul class="searh-result media-list">
+                <li class="media result-1">
                     <a class="pull-left" href="#">
                         <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="img/content/profile/creative-person.jpg" style="width: 100px; height: 100px;">
                     </a>
                     <div class="media-body">
                         <h4 class="media-heading"><a href="">Suparjo</a></h4>
-                        <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                        <div class="">
+                        <div class="result-toggle">
+                            <article>
+                                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                            </article>
+                        </div>
+                        <button class="btn btn-info btn-xs append_top_1" type="button"><span>More...</span><span>Less</span></button>
+                        <div class="upfix_1">
                             <div class="col-lg-5 prefix_0">
                                 <b>IDR 500.000 per Jam Bandung, Jawa Barat</b>
                             </div>
@@ -52,14 +59,21 @@ include 'main-menu-after-login.php';
                         </div>
                     </div>
                 </li>
-                <li class="media">
+                <li class="media result-2">
                     <a class="pull-left" href="#">
                         <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="img/content/profile/creative-person.jpg" style="width: 100px; height: 100px;">
                     </a>
                     <div class="media-body">
                         <h4 class="media-heading"><a href="">Suparjo</a></h4>
-                        <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                        <div class="">
+                        <div class="result-toggle">
+                            <article>
+                                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                            </article>
+                        </div>
+                        <button class="btn btn-info btn-xs append_top_1" type="button"><span>More...</span><span>Less</span></button>
+                        <div class="upfix_1">
                             <div class="col-lg-5 prefix_0">
                                 <b>IDR 500.000 per Jam Bandung, Jawa Barat</b>
                             </div>
@@ -73,14 +87,19 @@ include 'main-menu-after-login.php';
                         </div>
                     </div>
                 </li>
-                <li class="media">
+                <li class="media result-3">
                     <a class="pull-left" href="#">
                         <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="img/content/profile/creative-person.jpg" style="width: 100px; height: 100px;">
                     </a>
                     <div class="media-body">
                         <h4 class="media-heading"><a href="">Suparjo</a></h4>
-                        <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                        <div class="">
+                        <div class="result-toggle">
+                            <article>
+                                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                            </article>
+                        </div>
+                        <button class="btn btn-info btn-xs append_top_1" type="button"><span>More...</span><span>Less</span></button>
+                        <div class="upfix_1">
                             <div class="col-lg-5 prefix_0">
                                 <b>IDR 500.000 per Jam Bandung, Jawa Barat</b>
                             </div>

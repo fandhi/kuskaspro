@@ -830,3 +830,23 @@ p {
     background-color: #fff;
     border-radius: 4px;
 }
+
+/*search result*/
+.searh-result .media {
+    background: url(../img/material/diagonal.png) repeat-x bottom;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.searh-result .media-object {
+    border-radius: 5px;
+}
+.searh-result .media-body {
+    text-align: justify;
+}
+/*.searh-result .media-body .btn {padding: 6px 13px;}*/
+.searh-result .media-body .btn span:last-child {display: none;}
+.searh-result .result-toggle {
+    height: 60px;
+    overflow: hidden;
+}
+.searh-result .result-toggle article {margin: 0;}
