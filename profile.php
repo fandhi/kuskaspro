@@ -3,7 +3,7 @@ include 'inc_header.php';
 include 'main-menu-after-login.php';
 ?>
 <div class="container">
-    <div class="row append_bottom_2 css3-gradient1">
+    <div class="row">
         <div class="col-sm-6 col-md-4">
             <div class="thumbnail">
                 <img src="img/content/profile/stock-photo-business-woman-portrait-crossed-arms-128709044.jpg" alt="stock-photo-business-woman-portrait-crossed-arms-128709044"/>
@@ -117,9 +117,9 @@ include 'main-menu-after-login.php';
                 </div>
             </div>
             <div class="text-center">
-                <p><button class="btn" type="button">Mail</button></p>
+                <p><button class="btn btn-primary" type="button">Mail</button></p>
                 <p>or</p>
-                <p><button class="btn" type="button">Call</button></p>
+                <p><button class="btn btn-primary" type="button">Call</button></p>
             </div>
         </div>
         <div class="user-timeline col-md-8">
