@@ -34,7 +34,7 @@ include 'main-menu-before-login.php';
                     <hr>
                     <div class="details">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
-                        <a class="btn btn-sm btn-primary" type="button" onclick="window.location = '';">Browse category</a>
+                        <a class="btn btn-sm btn-default" type="button" onclick="window.location = '';">Browse category</a>
                     </div>
                 </div>
             </div>
@@ -44,7 +44,7 @@ include 'main-menu-before-login.php';
                     <hr>
                     <div class="details">
                         <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam</p>
-                        <a class="btn btn-sm btn-primary" type="button" onclick="window.location = '';">Browse category</a>
+                        <a class="btn btn-sm btn-default" type="button" onclick="window.location = '';">Browse category</a>
                     </div>
                 </div>
             </div>
@@ -54,7 +54,7 @@ include 'main-menu-before-login.php';
                     <hr>
                     <div class="details">
                         <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam</p>
-                        <a class="btn btn-sm btn-primary" type="button" onclick="window.location = '';">Browse category</a>
+                        <a class="btn btn-sm btn-default" type="button" onclick="window.location = '';">Browse category</a>
                     </div>
                 </div>
             </div>
@@ -64,7 +64,7 @@ include 'main-menu-before-login.php';
                     <hr>
                     <div class="details">
                         <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-                        <a class="btn btn-sm btn-primary" type="button" onclick="window.location = '';">Browse category</a>
+                        <a class="btn btn-sm btn-default" type="button" onclick="window.location = '';">Browse category</a>
                     </div>
                 </div>
             </div>
@@ -74,7 +74,7 @@ include 'main-menu-before-login.php';
                     <hr>
                     <div class="details">
                         <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                        <a class="btn btn-sm btn-primary" type="button" onclick="window.location = '';">Browse category</a>
+                        <a class="btn btn-sm btn-default" type="button" onclick="window.location = '';">Browse category</a>
                     </div>
                 </div>
             </div>
@@ -84,7 +84,7 @@ include 'main-menu-before-login.php';
                     <hr>
                     <div class="details">
                         <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur</p>
-                        <a class="btn btn-sm btn-primary" type="button" onclick="window.location = '';">Browse category</a>
+                        <a class="btn btn-sm btn-default" type="button" onclick="window.location = '';">Browse category</a>
                     </div>
                 </div>
             </div>
@@ -94,7 +94,7 @@ include 'main-menu-before-login.php';
                     <hr>
                     <div class="details">
                         <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</p>
-                        <a class="btn btn-sm btn-primary" type="button" onclick="window.location = '';">Browse category</a>
+                        <a class="btn btn-sm btn-default" type="button" onclick="window.location = '';">Browse category</a>
                     </div>
                 </div>
             </div>
@@ -104,7 +104,7 @@ include 'main-menu-before-login.php';
                     <hr>
                     <div class="details">
                         <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
-                        <a class="btn btn-sm btn-primary" type="button" onclick="window.location = '';">Browse category</a>
+                        <a class="btn btn-sm btn-default" type="button" onclick="window.location = '';">Browse category</a>
                     </div>
                 </div>
             </div>
@@ -114,13 +114,13 @@ include 'main-menu-before-login.php';
                     <hr>
                     <div class="details">
                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
-                        <button class="btn btn-sm btn-primary" type="button" onclick="window.location = '';">Browse category</button>
+                        <button class="btn btn-sm btn-default" type="button" onclick="window.location = '';">Browse category</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <button class="btn btn-primary clearfix center-block" type="button" data-toggle="" data-target="#restCategory">
+    <button class="btn btn-default clearfix center-block" type="button" data-toggle="" data-target="#restCategory">
         <span class="oc">View all categories</span><span class="cc">Close</span></button>
     <!--end row-->
 </div>

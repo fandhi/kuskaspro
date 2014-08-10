@@ -23,7 +23,7 @@ include 'main-menu-after-login.php';
                 </div>
             </div>
             <div class="col-xs-6 col-md-3">
-                <button type="button" class="btn btn-primary glyphicon glyphicon-plus">
+                <button type="button" class="btn btn-default glyphicon glyphicon-plus" disabled>
                     
                 </button>
             </div>

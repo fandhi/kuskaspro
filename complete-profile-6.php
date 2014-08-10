@@ -12,7 +12,7 @@ include 'main-menu-after-login.php';
                 <h3>skipped...</h3>
                 <p>you can manage your profile later via dashboard</p>
                 <div class="form-group">
-                    <button type="button" class="btn btn-success text-center" onclick="window.location = 'complete-profile-2.php';">Ok</button>
+                    <button type="button" class="btn btn-default text-center" onclick="window.location = 'complete-profile-2.php';">Ok</button>
                 </div>
             </div>
         </div>

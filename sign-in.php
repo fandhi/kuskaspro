@@ -17,7 +17,7 @@ include 'main-menu-before-login.php';
                 </div>
                 <div class="form-group">
                 <div class="col-sm-4 prefix_0">
-                    <button type="button" class="btn btn-success btn-block text-center" onclick="window.location = 'landing-page-1.php';">Sign in</button>
+                    <button type="button" class="btn btn-default btn-block text-center" onclick="window.location = 'landing-page-1.php';">Sign in</button>
                 </div>
                 <div class="col-sm-8 col-xs-push-1 prefix_0">
                     <label class="checkbox">

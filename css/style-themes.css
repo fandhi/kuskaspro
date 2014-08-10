@@ -41,7 +41,7 @@ p {
     padding: 9px 13px;
     color: #fff;
     box-shadow: none;
-    border-bottom: 2px solid #bcbcbc;
+    /*border-bottom: 2px solid #616161;*/
     -webkit-transition: background-color 0.05s ease;
     -moz-transition: background-color 0.05s ease;
     -o-transition: background-color 0.05s ease;
@@ -69,14 +69,14 @@ p {
 .theme-style .btn-default:hover,
 .theme-style .btn-default:focus {
     /*background-color: #c6c6c6;*/
-    background: #121212; /* Old browsers */
-    background: -moz-linear-gradient(top,  #121212 0%, #414141 50%, #5e5e5e 51%, #484848 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#121212), color-stop(50%,#414141), color-stop(51%,#5e5e5e), color-stop(100%,#484848)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  #121212 0%,#414141 50%,#5e5e5e 51%,#484848 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  #121212 0%,#414141 50%,#5e5e5e 51%,#484848 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  #121212 0%,#414141 50%,#5e5e5e 51%,#484848 100%); /* IE10+ */
-    background: linear-gradient(to bottom,  #121212 0%,#414141 50%,#5e5e5e 51%,#484848 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#121212', endColorstr='#484848',GradientType=0 ); /* IE6-9 */
+    background: #383838; /* Old browsers */
+/*background: -moz-linear-gradient(top,  #464646 0%, #444444 50%, #383838 51%, #484848 100%);  FF3.6+ 
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#464646), color-stop(50%,#444444), color-stop(51%,#383838), color-stop(100%,#484848));  Chrome,Safari4+ 
+background: -webkit-linear-gradient(top,  #464646 0%,#444444 50%,#383838 51%,#484848 100%);  Chrome10+,Safari5.1+ 
+background: -o-linear-gradient(top,  #464646 0%,#444444 50%,#383838 51%,#484848 100%);  Opera 11.10+ 
+background: -ms-linear-gradient(top,  #464646 0%,#444444 50%,#383838 51%,#484848 100%);  IE10+ 
+background: linear-gradient(to bottom,  #464646 0%,#444444 50%,#383838 51%,#484848 100%);  W3C 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#464646', endColorstr='#484848',GradientType=0 );  IE6-9 */
 
     border-color: #181818;
 }
@@ -838,6 +838,9 @@ p {
 }
 
 /*cos-ratings*/
+#boxRating {
+    
+}
 .cos-ratings .progress {padding-left: 0px;padding-right: 0px;}
 .cos-ratings .total-ratings {
     font-size: 70px;
@@ -854,21 +857,79 @@ p {
 }
 
 /*search result*/
-.search-result .media {
+#search-result .media {
     background: url(../img/material/diagonal.png) repeat-x bottom;
     margin-bottom: 20px;
     padding-bottom: 20px;
 }
-.search-result .media-object {
+#search-result .media-object {
     border-radius: 5px;
 }
-.search-result .media-body {
+#search-result .media-body {
     text-align: justify;
 }
 /*.searh-result .media-body .btn {padding: 6px 13px;}*/
-.search-result .media-body .btn span:last-child {display: none;}
-.search-result .result-toggle {
+#search-result .media-body .btn_less {display: none;}
+#search-result .result-toggle {
     height: 60px;
     overflow: hidden;
 }
-.search-result .result-toggle article {margin: 0;}
+#search-result .result-toggle article {margin: 0;}
+#search-result .ket-star .glyphicon {
+    margin: 0;
+}
+/*#search-result .pupline {letter-spacing: -2px;}*/
+#search-result .upfix_1 .pupline:after {
+    content: "||";
+    font-weight: lighter;
+    margin-left: 17px;
+    margin-right: 14px;
+    position: relative;
+    top: -2px;
+}
+
+/*custom input type : radio,select,checkbox*/
+/*.checkbox, .radio {
+    width: 19px;
+    height: 25px;
+    padding: 0 5px 0 0;
+    background: url(checkbox.png) no-repeat;
+    display: block;
+    clear: left;
+    float: left;
+}
+.radio {
+    background: url(radio.png) no-repeat;
+}*/
+.select {
+    position: absolute;
+    width: 100%; /* With the padding included, the width is 190 pixels: the actual width of the image. */
+    overflow: hidden;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555555;
+    vertical-align: middle;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.select:after {
+    content: "";
+    border-top: 5px solid #000000;
+    border-right: 4px solid transparent;
+    border-bottom: 0 dotted;
+    border-left: 4px solid transparent;
+    width: 8px;
+    display: inline-block;
+    height: 9px;
+    position: absolute;
+right: 7px;
+top: 12px;
+}

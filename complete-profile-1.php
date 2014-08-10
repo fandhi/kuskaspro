@@ -35,7 +35,7 @@ include 'main-menu-after-login.php';
                     <span class="control-label">This field is required.</span>
                 </div>
                 <div class="form-group">
-                    <button type="button" class="btn btn-success btn-block text-center" onclick="window.location = 'complete-profile-2.php';">Next</button>
+                    <button type="button" class="btn btn-default btn-block text-center" onclick="window.location = 'complete-profile-2.php';">Next</button>
                 </div>
                 <div class="form-group text-center">
                     <a href="complete-profile-6.php">Skip</a>

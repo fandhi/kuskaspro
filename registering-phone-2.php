@@ -13,7 +13,7 @@ include 'main-menu-before-login.php';
                 </div>
                 <div class="form-horizontal upfix_2">
                     <div class="form-group text-center">
-                        <button type="button" class="btn btn-success" onclick="window.location='registering-phone-3.php';">Go<span class="glyphicon glyphicon-chevron-right"></span></button>
+                        <button type="button" class="btn btn-default" onclick="window.location='registering-phone-3.php';">Go<span class="glyphicon glyphicon-chevron-right"></span></button>
                     </div>
                 </div>
             </form>

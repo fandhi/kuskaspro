@@ -26,9 +26,9 @@ include 'main-menu-after-login.php';
                     <textarea class="form-control" rows="4" disabled>Description</textarea>
                 </div>
                 <div class="form-group text-center">
-                    <button type="button" class="btn btn-success" onclick="history.go(-1);
+                    <button type="button" class="btn btn-default" onclick="history.go(-1);
                             return false;">Back</button>
-                    <button type="button" class="btn btn-success" onclick="window.location = 'complete-profile-5.php';">Finish</button>
+                    <button type="button" class="btn btn-default" onclick="window.location = 'complete-profile-5.php';">Finish</button>
                 </div>
             </form>
         </div>

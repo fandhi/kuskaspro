@@ -24,7 +24,7 @@ include 'main-menu-before-login.php';
                     </label>
                 </div>
                 <div class="form-group">
-                    <button type="button" class="btn btn-success btn-block text-center" onclick="window.location = 'registering-phone-1.php';">Get started</button>
+                    <button type="button" class="btn btn-default btn-block text-center" onclick="window.location = 'registering-phone-1.php';">Get started</button>
                 </div>
             </form>
         </div>

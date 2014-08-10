@@ -19,7 +19,7 @@ include 'main-menu-after-login.php';
                     <input class="form-control" type="email" name="" value="" placeholder="Input Your Email"/>
                 </div>
                 <div class="form-group">
-                    <input class="btn btn-primary" type="button" name="" value="Send"/>
+                    <input class="btn btn-default" type="button" name="" value="Send"/>
                 </div>
             </form>
         </div>

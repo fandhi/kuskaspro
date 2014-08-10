@@ -12,7 +12,7 @@ include 'main-menu-before-login.php';
                 </div>
                 <div class="form-horizontal upfix_2">
                     <div class="form-group text-center">
-                        <button type="submit" class="btn btn-success">Verify</button>
+                        <button type="submit" class="btn btn-default">Verify</button>
                     </div>
                 </div>
             </form>

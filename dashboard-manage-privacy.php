@@ -47,7 +47,7 @@ include 'main-menu-after-login.php';
                     <input class="btn btn-danger" type="button" name="" value="Delete account" />
                 </div>
                 <div class="form-group">
-                    <input class="btn btn-success" type="button" name="" value="Save" />
+                    <input class="btn btn-default" type="button" name="" value="Save" />
                 </div>
             </form>
         </div>

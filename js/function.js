@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     //SHOW HIDE BUTTON
-    $("#category + .btn.btn-primary").click(function() {
+    $("#category + .btn.btn-default").click(function() {
         catheight = $("#category .row").innerHeight();
         if ($(this).hasClass("open"))
         {
@@ -23,18 +23,18 @@ $(document).ready(function() {
     $("#input-id").rating();
     
     //TOGGLE SEARCH CONTENT
-    $('.searh-result li .btn span:first-child').click(function() {
+    $('#search-result li .btn_read_more').click(function() {
     var temp = $(this)
     var filterNum = $(this).parents('li').attr('class').match(/\d+/);
-    var resultH = $('.searh-result .result-' + filterNum + ' article').outerHeight();
+    var resultH = $('#search-result .result-' + filterNum + ' article').outerHeight();
     $('.result-' + filterNum + ' .result-toggle').animate({'height':resultH});
-    $('.searh-result .result-' + filterNum + ' .btn span:first-child').hide();
-    $('.searh-result .result-' + filterNum + ' .btn span:last-child').show();
+    $('#search-result .result-' + filterNum + ' .btn_read_more').hide();
+    $('#search-result .result-' + filterNum + ' .btn_less').show();
     
-    $('.searh-result .result-' + filterNum + ' .btn span:last-child').click(function() {
+    $('#search-result .result-' + filterNum + ' .btn_less').click(function() {
         $('.result-' + filterNum + ' .result-toggle').animate({'height':'60'});
-        $('.searh-result .result-' + filterNum + ' .btn span:first-child').show();
-    $('.searh-result .result-' + filterNum + ' .btn span:last-child').hide();
+        $('#search-result .result-' + filterNum + ' .btn_read_more').show();
+    $('#search-result .result-' + filterNum + ' .btn_less').hide();
     });
         return false;
     });

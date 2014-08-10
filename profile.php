@@ -8,6 +8,66 @@ include 'main-menu-after-login.php';
             <div class="thumbnail">
                 <img src="img/content/profile/stock-photo-business-woman-portrait-crossed-arms-128709044.jpg" alt="stock-photo-business-woman-portrait-crossed-arms-128709044"/>
             </div>
+            <div id="boxRating" class="col-sm-12 col-md-11 prefix_0 pasfix_0">
+                <h4>Customer ratings</h4>
+                <div class="cos-ratings">
+                    <div class="text-center append_bottom_3">
+                        <p><button class="btn btn-default btn-block bold text-center" type="button">Mail</button></p>
+                        <p><button class="btn btn-default btn-block bold text-center" type="button">Call</button></p>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-4">
+                        <div class="total-ratings">5,0</div>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <h6 class="total-ratings-number">8,893,372</h6>
+                    </div>
+                    <div class="col-sm-6 col-lg-8">
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-3">
+                                <span class="glyphicon glyphicon-star"></span> 5
+                            </div>
+                            <div class="progress col-sm-8 col-lg-9">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">100%</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-3">
+                                <span class="glyphicon glyphicon-star"></span> 4
+                            </div>
+                            <div class="progress col-sm-8 col-lg-9">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">80%</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-3">
+                                <span class="glyphicon glyphicon-star"></span> 3
+                            </div>
+                            <div class="progress col-sm-8 col-lg-9">
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">60%</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-3">
+                                <span class="glyphicon glyphicon-star"></span> 2
+                            </div>
+                            <div class="progress col-sm-8 col-lg-9">
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">30%</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-3">
+                                <span class="glyphicon glyphicon-star"></span> 1
+                            </div>
+                            <div class="progress col-sm-8 col-lg-9">
+                                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">10%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="col-sm-6 col-md-8">
             <div class="col-sm-12 col-md-6">
@@ -61,68 +121,8 @@ include 'main-menu-after-login.php';
         <p class="clearfix"></p>
     </div><!--end row-->
     <div class="row">
-        <div class="col-md-4">
-            <h4>Customer ratings</h4>
-            <div class="cos-ratings">
-                <div class="col-md-6 col-lg-4">
-                    <div class="total-ratings">5,0</div>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <h6 class="total-ratings-number">8,893,372</h6>
-                </div>
-                <div class="col-md-8">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <span class="glyphicon glyphicon-star"></span> 5
-                        </div>
-                        <div class="progress col-md-8">
-                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">100%</div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <span class="glyphicon glyphicon-star"></span> 4
-                        </div>
-                        <div class="progress col-md-8">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">80%</div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <span class="glyphicon glyphicon-star"></span> 3
-                        </div>
-                        <div class="progress col-md-8">
-                            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">60%</div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <span class="glyphicon glyphicon-star"></span> 2
-                        </div>
-                        <div class="progress col-md-8">
-                            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">30%</div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <span class="glyphicon glyphicon-star"></span> 1
-                        </div>
-                        <div class="progress col-md-8">
-                            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">10%</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="text-center">
-                <p><button class="btn btn-primary" type="button">Mail</button></p>
-                <p>or</p>
-                <p><button class="btn btn-primary" type="button">Call</button></p>
-            </div>
-        </div>
-        <div class="user-timeline col-md-8">
+        
+        <div class="user-timeline col-md-8 pull-right">
             <ul class="media-list">
                 <li class="media">
                     <a class="pull-left" href="#">
@@ -138,7 +138,7 @@ include 'main-menu-after-login.php';
                                     <label class="label-rating">Rating :</label>
                                     <input id="star" class="rating " data-min="0" data-max="5" data-step="1" data-size="xs">
                                 </div>
-                                <input type="submit" class="btn btn-primary" value="Submit">
+                                <input type="submit" class="btn btn-default" value="Submit">
                             </div>
                         </form>
                     </div>
@@ -170,7 +170,7 @@ include 'main-menu-after-login.php';
                     <div class="media-body">
                         <h4 class="media-heading"><b>User c</b><span class="date">02.12.14 13:46</span></h4>
                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit</p>
-                        <a class="link-report btn btn-sm btn-warning" href="">report</a>
+                        <a class="link-report btn btn-sm btn-warning" href="" data-toggle="modal" data-target="#myModal">report</a>
                     </div>
                 </li>
             </ul>
@@ -178,5 +178,29 @@ include 'main-menu-after-login.php';
         </div>
     </div>
     <!--end row-->
+</div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="myModalLabel">Report</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-modal" method="post" action="" role="form">
+                    <div class="form-group">
+                        <textarea class="form-control" rows="3"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
 </div>
 <?php include 'inc_footer.php'; ?>

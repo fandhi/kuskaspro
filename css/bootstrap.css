@@ -58,8 +58,8 @@ abbr[title] {
   border-bottom: 1px dotted;
 }
 
-b,strong {
-  font-weight: bold;
+b,strong,.bold {
+  font-weight: bold!important;
 }
 
 dfn {
@@ -277,8 +277,9 @@ table {
 .prefix_3 {padding-left:30px !important;}
 .prefix_4 {padding-left:40px !important;}
 .prefix_5 {padding-left:50px !important;}
-.prefix_6 {padding-left:60px !important;}
+.prefix_6 {padding-left:60px ;}
 
+.pasfix_0 {padding-right:0px!important;}
 .pasfix_1 {padding-right:10px;}
 .pasfix_2 {padding-right:20px;}
 .pasfix_3 {padding-right:30px;}
@@ -851,9 +852,8 @@ pre code {
 .col-xs-offset-0 {  margin-left: 0;}
 
 @media (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
+  .container {    width: 750px;  }
+  #boxRating {position: relative;}
   .col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,
   .col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,
   .col-sm-11 {float: left;  }
@@ -912,6 +912,7 @@ pre code {
 
 @media (min-width: 992px) {
   .container {width: 970px;  }
+   #boxRating {position: absolute;}
   .col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,
   .col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,
   .col-md-11 {float: left;  }
@@ -1740,13 +1741,13 @@ fieldset[disabled] .btn {
 .btn-default {
   color: #333333;
   background: #7c7c7c; /* Old browsers */
-background: -moz-linear-gradient(top,  #7c7c7c 0%, #717171 50%, #5e5e5e 51%, #5d5d5d 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7c7c7c), color-stop(50%,#717171), color-stop(51%,#5e5e5e), color-stop(100%,#5d5d5d)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #7c7c7c 0%,#717171 50%,#5e5e5e 51%,#5d5d5d 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #7c7c7c 0%,#717171 50%,#5e5e5e 51%,#5d5d5d 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #7c7c7c 0%,#717171 50%,#5e5e5e 51%,#5d5d5d 100%); /* IE10+ */
-background: linear-gradient(to bottom,  #7c7c7c 0%,#717171 50%,#5e5e5e 51%,#5d5d5d 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7c7c7c', endColorstr='#5d5d5d',GradientType=0 ); /* IE6-9 */
+/*background: -moz-linear-gradient(top,  #7c7c7c 0%, #717171 50%, #5e5e5e 51%, #5d5d5d 100%);  FF3.6+ 
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7c7c7c), color-stop(50%,#717171), color-stop(51%,#5e5e5e), color-stop(100%,#5d5d5d));  Chrome,Safari4+ 
+background: -webkit-linear-gradient(top,  #7c7c7c 0%,#717171 50%,#5e5e5e 51%,#5d5d5d 100%);  Chrome10+,Safari5.1+ 
+background: -o-linear-gradient(top,  #7c7c7c 0%,#717171 50%,#5e5e5e 51%,#5d5d5d 100%);  Opera 11.10+ 
+background: -ms-linear-gradient(top,  #7c7c7c 0%,#717171 50%,#5e5e5e 51%,#5d5d5d 100%);  IE10+ 
+background: linear-gradient(to bottom,  #7c7c7c 0%,#717171 50%,#5e5e5e 51%,#5d5d5d 100%);  W3C 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7c7c7c', endColorstr='#5d5d5d',GradientType=0 );  IE6-9 */
 
   background-color: #ffffff;
   border-color: #cccccc;
@@ -2102,7 +2103,7 @@ input[type="button"].btn-block {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.glyphicon:empty {  width: 1em;}
+.glyphicon:empty {  width: 12px;}
 
 .glyphicon-asterisk:before {  content: "\2a";}
 .glyphicon-plus:before {  content: "\2b";}

@@ -12,7 +12,7 @@ include 'main-menu-after-login.php';
                 <h3>Completed...</h3>
                 <p>it may take up to 24hrs to make your profile online</p>
                 <div class="form-group">
-                    <button type="button" class="btn btn-success text-center" onclick="window.location = 'profile.php';">Ok</button>
+                    <button type="button" class="btn btn-default text-center" onclick="window.location = 'profile.php';">Ok</button>
                 </div>
             </div>
         </div>

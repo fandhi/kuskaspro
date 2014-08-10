@@ -20,8 +20,8 @@ include 'main-menu-after-login.php';
                     <input type="text" class="form-control" id="" name="" placeholder="Salary Range">
                 </div>
                     <div class="form-group text-center">
-                        <button type="button" class="btn btn-success" onclick="history.go(-1);return false;">Back</button>
-                        <button type="button" class="btn btn-success" onclick="window.location='complete-profile-3.php';">Next</button>
+                        <button type="button" class="btn btn-default" onclick="history.go(-1);return false;">Back</button>
+                        <button type="button" class="btn btn-default" onclick="window.location='complete-profile-3.php';">Next</button>
                     </div>
             </form>
         </div>

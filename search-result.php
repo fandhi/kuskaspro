@@ -9,28 +9,28 @@ include 'main-menu-after-login.php';
             <form class="form-horizontal col-xs-12" method="post" action="" role="form">
                 <label>Narrow result by</label>
                 <div class="form-group">
-                    <select class="form-control">
+                    <select class="form-control styled">
                         <option value="">Province</option>
                     </select>
                 </div>
                 <div class="form-group">
-                    <select class="form-control">
+                    <select class="form-control styled">
                         <option value="">City</option>
                     </select>
                 </div>
                 <label>Sort by salary</label>
                 <div class="form-group">
-                    <select class="form-control">
+                    <select class="form-control styled">
                         <option value="">Highest</option>
                     </select>
                 </div>
                 <div class="form-group">
-                    <input class="btn btn-primary" type="submit" value="Submit">
+                    <input class="btn btn-default" type="submit" value="Submit">
                 </div>
             </form>
         </div>
         <div class="col-sm-8 col-md-9">
-            <ul class="searh-result media-list">
+            <ul id="search-result" class=" media-list">
                 <li class="media result-1">
                     <a class="pull-left" href="#">
                         <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="img/content/profile/creative-person.jpg" style="width: 100px; height: 100px;">
@@ -44,17 +44,18 @@ include 'main-menu-after-login.php';
                                 <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
                             </article>
                         </div>
-                        <button class="btn btn-info btn-xs append_top_1" type="button"><span>More...</span><span>Less</span></button>
-                        <div class="upfix_1">
-                            <div class="col-lg-5 prefix_0">
-                                <b>IDR 500.000 per Jam Bandung, Jawa Barat</b>
+                        <button class="btn btn-info btn-xs append_top_1 btn_read_more" type="button">More...</button>
+                        <button class="btn btn-info btn-xs append_top_1 btn_less" type="button">Less</button>
+                        <div class="upfix_1 ket-star">
+                            <div class="col-md-2 prefix_0 pasfix_0 pupline">
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
                             </div>
-                            <div class="col-lg-5">
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
+                            <div class="col-lg-6 prefix_0">
+                                <b><span class="pupline">IDR 500.000 per Jam</span> Bandung, Jawa Barat</b>
                             </div>
                         </div>
                     </div>
@@ -72,17 +73,18 @@ include 'main-menu-after-login.php';
                                 <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
                             </article>
                         </div>
-                        <button class="btn btn-info btn-xs append_top_1" type="button"><span>More...</span><span>Less</span></button>
-                        <div class="upfix_1">
-                            <div class="col-lg-5 prefix_0">
-                                <b>IDR 500.000 per Jam Bandung, Jawa Barat</b>
+                        <button class="btn btn-info btn-xs append_top_1 btn_read_more" type="button">More...</button>
+                        <button class="btn btn-info btn-xs append_top_1 btn_less" type="button">Less</button>
+                        <div class="upfix_1 ket-star">
+                            <div class="col-md-2 prefix_0 pasfix_0 pupline">
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
                             </div>
-                            <div class="col-lg-5">
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
+                            <div class="col-lg-6 prefix_0">
+                                <b><span class="pupline">IDR 500.000 per Jam</span> Bandung, Jawa Barat</b>
                             </div>
                         </div>
                     </div>
@@ -96,19 +98,21 @@ include 'main-menu-after-login.php';
                         <div class="result-toggle">
                             <article>
                                 <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                                <p>tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
                             </article>
                         </div>
-                        <button class="btn btn-info btn-xs append_top_1" type="button"><span>More...</span><span>Less</span></button>
-                        <div class="upfix_1">
-                            <div class="col-lg-5 prefix_0">
-                                <b>IDR 500.000 per Jam Bandung, Jawa Barat</b>
+                        <button class="btn btn-info btn-xs append_top_1 btn_read_more" type="button">More...</button>
+                        <button class="btn btn-info btn-xs append_top_1 btn_less" type="button">Less</button>
+                        <div class="upfix_1 ket-star">
+                            <div class="col-md-2 prefix_0 pasfix_0 pupline">
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
                             </div>
-                            <div class="col-lg-5">
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
+                            <div class="col-lg-6 prefix_0">
+                                <b><span class="pupline">IDR 500.000 per Jam</span> Bandung, Jawa Barat</b>
                             </div>
                         </div>
                     </div>
