@@ -9,6 +9,7 @@
         <script type="text/javascript" src="js/horizontal.js"></script>
         <script type="text/javascript" src="js/star-rating.js"></script>
         <script type="text/javascript" src="js/jquery-custom-form-elements.min.js"></script>
+        <script type="text/javascript" src="js/script-comment.js"></script>
         <script type="text/javascript" src="js/function.js"></script>
     </body>
 </html>

@@ -1,6 +1,22 @@
 <?php
 include 'inc_header.php';
 include 'main-menu-after-login.php';
+// Error reporting:
+error_reporting(E_ALL^E_NOTICE);
+
+include "connect.php";
+include "comment.class.php";
+/*
+/	Select all the comments and populate the $comments array with objects
+*/
+
+$comments = array();
+$result = mysql_query("SELECT * FROM comments ORDER BY id DESC");
+
+while($row = mysql_fetch_assoc($result))
+{
+	$comments[] = new Comment($row);
+}
 ?>
 <div class="container">
     <div class="row">
@@ -124,32 +140,42 @@ include 'main-menu-after-login.php';
         
         <div class="user-timeline col-md-8 pull-right">
             <ul class="media-list">
-                <li class="media">
+                <li id="liComment" class="media">
                     <a class="pull-left" href="#">
                         <img class="img-circle" src="img/content/profile/creative-person.jpg" alt="...">
                     </a>
                     <div class="media-body">
-                        <form class="form-horizontal col-md-12" method="" action="" role="form">
+                        <form id="addCommentForm" class="form-horizontal col-md-12" method="post" action="" role="form">
+                            <input type="hidden"  name="name" id="name" value="User d">
                             <div class="form-group">
-                                <textarea rows="4" class="form-control" placeholder="Leave Comment"></textarea>
+                                <textarea id="comment" name="comment" rows="4" class="form-control" placeholder="Leave Comment"></textarea>
                             </div>
                             <div class="form-group">
                                 <div class="col-md-10">
                                     <label class="label-rating">Rating :</label>
-                                    <input id="star" class="rating " data-min="0" data-max="5" data-step="1" data-size="xs">
+                                    <input id="star" name="star" class="rating " data-min="0" data-max="5" data-step="1" data-size="xs">
                                 </div>
-                                <input type="submit" class="btn btn-default" value="Submit">
+                                <input id="submit" type="submit" class="btn btn-default" value="Submit">
                             </div>
                         </form>
                     </div>
                 </li>
+                <?php
+                /*
+                  /	Output the comments one by one:
+                 */
+
+                foreach ($comments as $c) {
+                    echo $c->markup();
+                }
+                ?>
                 <li class="media">
                     <a class="pull-left" href="#">
                         <img class="img-circle" src="img/content/profile/imgres.jpg" alt="...">
                     </a>
                     <div class="media-body">
                         <h4 class="media-heading"><b>User a</b><span class="date">02.12.14 13:46</span></h4>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit</p>
+                        <div class="body-comment">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit</div>
                         <a class="link-report btn btn-sm btn-warning" href="">report</a>
                     </div>
                 </li>
@@ -159,7 +185,7 @@ include 'main-menu-after-login.php';
                     </a>
                     <div class="media-body">
                         <h4 class="media-heading"><b>User b</b><span class="date">02.12.14 13:46</span></h4>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit</p>
+                        <div class="body-comment">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit</div>
                         <a class="link-report btn btn-sm btn-warning" href="">report</a>
                     </div>
                 </li>
@@ -169,7 +195,7 @@ include 'main-menu-after-login.php';
                     </a>
                     <div class="media-body">
                         <h4 class="media-heading"><b>User c</b><span class="date">02.12.14 13:46</span></h4>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit</p>
+                        <div class="body-comment">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit</div>
                         <a class="link-report btn btn-sm btn-warning" href="" data-toggle="modal" data-target="#myModal">report</a>
                     </div>
                 </li>
