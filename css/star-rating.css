@@ -58,6 +58,7 @@
     display: inline-block;
     color: #e3e3e3;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .rating-container:before {

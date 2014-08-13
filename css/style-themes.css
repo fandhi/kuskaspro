@@ -19,7 +19,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 p {
     color: #5c6162;
 }
-/* Buttons */
+/* Buttons 
+-------------------------------------------------*/
 
 .theme-style .dropdown-menu {
     border-radius: 0px;
@@ -154,7 +155,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#464646', end
     -webkit-box-shadow: 0 0 0 rgba(255,255,255,0);
     box-shadow: 0 0px 0px rgba(255, 255, 255, 0);
 }
-/* Pagination */
+/* Pagination 
+-------------------------------------------------*/
 
 .theme-style .pagination > li > a,
 .theme-style .pagination > li > span {
@@ -196,7 +198,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#464646', end
     color: #fff;
 }
 
-/* Forms */
+/* Forms 
+-------------------------------------------------*/
 
 .theme-style .form-control {
     color: #5c6162;
@@ -214,7 +217,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#464646', end
     padding: 15px;
     margin: 0 auto;
 }
-/* Navbar-form */
+/* Navbar-form 
+-------------------------------------------------*/
 .theme-style .navbar-form .form-group {
     position: relative;
 }
@@ -228,7 +232,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#464646', end
     margin-right: 5px;
     padding: 3px;
 }
-/*menu profile*/
+/*menu profile
+-------------------------------------------------*/
 #menuProfile li ul {
     width: 182px;
 }
@@ -251,7 +256,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#464646', end
     background-color: #DBDBDB;
 }
 
-/* Navbar */
+/* Navbar 
+-------------------------------------------------*/
 
 .theme-style .navbar .form-control {
     border: none;
@@ -330,7 +336,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#464646', end
         margin-right: 0;
     }
 }
-/* Nav */
+/* Nav 
+-------------------------------------------------*/
 .theme-style .nav-tabs > li {
     margin-bottom: -2px;
 }
@@ -361,7 +368,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#464646', end
     border-bottom: 0;
 }
 
-/* Lists */
+/* Lists 
+-------------------------------------------------*/
 
 .theme-style .list-group-item {
     border: 0;
@@ -416,7 +424,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#464646', end
     font-size: 26px;
 }
 
-/* Progress bars*/
+/* Progress bars
+-------------------------------------------------*/
 
 .theme-style .progress {
     background-color: #E9E9E9;
@@ -470,7 +479,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#464646', end
     background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 
-/* Popover */
+/* Popover 
+-------------------------------------------------*/
 
 .theme-style .popover {
     box-shadow: none;
@@ -497,7 +507,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#464646', end
 .theme-style .popover.inverse-theme .popover-content p{
     color: #000;
 }
-/* Datepicker */
+/* Datepicker 
+-------------------------------------------------*/
 
 .theme-style .datepicker {
     width: 268px;
@@ -579,7 +590,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#464646', end
     border-radius: 0;
 }
 
-/* Table */
+/* Table 
+-------------------------------------------------*/
 .theme-style .table > tbody > tr > td {
     -webkit-transition: background-color 0.25s ease;
     -moz-transition: background-color 0.25s ease;
@@ -606,7 +618,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#464646', end
     background-color: #e1e1e2;
 }
 
-/* Alert */
+/* Alert 
+-------------------------------------------------*/
 
 .theme-style .alert {
     border:none;
@@ -629,7 +642,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#464646', end
     color: #e64c65;
 }
 
-/* Panel */
+/* Panel 
+-------------------------------------------------*/
 
 .theme-style .panel {
     border: 1px solid #D6D8D9;
@@ -659,7 +673,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#464646', end
     background-color: #EF4840;
 }
 
-/* Thumbnail */
+/* Thumbnail 
+-------------------------------------------------*/
 
 .theme-style .thumbnail {
     border: 1px solid #D6D8D9;
@@ -688,7 +703,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#464646', end
 
 
 /*List category
-----------------------*/
+-------------------------------------------------*/
 #category {
     height: 540px;
     overflow: hidden;
@@ -745,8 +760,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#464646', end
 }
 .btn .cc {display: none;}
 
+/*profile description
+-------------------------------------------------*/
+.profile-desc-collapse {
+    height: 130px;
+    overflow: hidden;
+}
+.click-show-profile-desc,.click-hide-profile-desc {cursor: pointer;}
+.click-hide-profile-desc {display: none;}
 /*user timeline
---------------------*/
+-------------------------------------------------*/
 .user-timeline {
     margin: 20px auto;
     /*width: 100%;*/
@@ -840,7 +863,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#464646', end
     line-height: 20px;
 }
 
-/*cos-ratings*/
+/*cos-ratings
+-------------------------------------------------*/
 #boxRating {
     
 }
@@ -849,7 +873,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#464646', end
     font-size: 70px;
     text-align: center;
 }
-/*Comment*/
+.cos-ratings #uEmail,.cos-ratings #uNumber {
+    display: none;
+}
+/*Comment
+-------------------------------------------------*/
 #respond {
     margin-top: 90px;
     box-shadow: 0 0 1px #ddd;
@@ -859,7 +887,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#464646', end
     border-radius: 4px;
 }
 
-/*search result*/
+/*search result
+-------------------------------------------------*/
 #search-result .media {
     background: url(../img/material/diagonal.png) repeat-x bottom;
     margin-bottom: 20px;

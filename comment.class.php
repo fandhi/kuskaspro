@@ -51,7 +51,7 @@ class Comment {
                             <h4 class="media-heading"><b>'.$d['name'].'</b></h4>
                             <span class="date" title="Added at ' . date('H:i \o\n d M Y', $d['dt']) . '">' . date('M d, Y - g:i:a ', $d['dt']) . '</span>
                             <div class="body-comment">' . $d['comment'] . '</div>
-                            <a class="link-report btn btn-sm btn-warning" href="">report</a>
+                            <a class="link-report btn btn-sm btn-warning" href="" data-toggle="modal" data-target="#myModal">report</a>
                         </div>
                 </li>
 	';

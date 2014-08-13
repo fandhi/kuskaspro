@@ -28,8 +28,12 @@ while($row = mysql_fetch_assoc($result))
                 <h4>Customer ratings</h4>
                 <div class="cos-ratings">
                     <div class="text-center append_bottom_3">
-                        <p><button class="btn btn-default btn-block bold text-center" type="button">Mail</button></p>
-                        <p><button class="btn btn-default btn-block bold text-center" type="button">Call</button></p>
+                        <p><button class="btn btn-default btn-block bold text-center click-show-email" type="button">Mail</button>
+                            <a id="uEmail" href="mailto:example@example.com">example@example.com</a>
+                        </p>
+                        <p><button class="btn btn-default btn-block bold text-center click-show-number" type="button">Call</button>
+                            <span id="uNumber">08123456789</span>
+                        </p>
                     </div>
                     <div class="col-sm-6 col-md-6 col-lg-4">
                         <div class="total-ratings">5,0</div>
@@ -86,10 +90,23 @@ while($row = mysql_fetch_assoc($result))
             </div>
         </div>
         <div class="col-sm-6 col-md-8">
-            <div class="col-sm-12 col-md-6">
+            <div id="profileDesc" class="col-sm-12 col-md-6">
                 <h4>Description</h4>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit</p>
-                <a href="">Read more</a>
+                <div class="profile-desc-collapse">
+                    <div>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit</p>
+                <p>Pri iudico aperiri cu. Pri semper salutatus ut, te sit erat facilisi. Ut putant ceteros iudicabit duo, homero labore fuisset vel at. 
+                    Et impedit fuisset nec. Mei consul temporibus scribentur ex, consul facilisi antiopam sea ei, usu ex delectus laboramus reformidans. 
+                    Te sea mutat assentior, duo ei dicat quaestio suscipiantur, feugiat tractatos conclusionemque at vis. 
+                    Ut labores repudiare theophrastus eum, cum in nisl impetus eripuit.</p>
+                <p>Mutat tibique vel ad, sed soluta dolorum postulant ei, ad his soluta accusam oporteat. Vide accommodare quo in, 
+                    vel quot deserunt mediocritatem in. Pri ad possit definitiones. Eos indoctum consulatu no, nominavi laboramus ius ut, 
+                    nam posidonium elaboraret signiferumque id.</p>
+                    </div>
+                </div>
+                
+                <span class="click-show-profile-desc text-info">Read more</span>
+                <span class="click-hide-profile-desc text-info">Less</span>
             </div>
             <div class="col-sm-12 col-md-6">
                 <table class="table-custom highlight">
@@ -176,7 +193,7 @@ while($row = mysql_fetch_assoc($result))
                     <div class="media-body">
                         <h4 class="media-heading"><b>User a</b><span class="date">02.12.14 13:46</span></h4>
                         <div class="body-comment">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit</div>
-                        <a class="link-report btn btn-sm btn-warning" href="">report</a>
+                        <a class="link-report btn btn-sm btn-warning" href="" data-toggle="modal" data-target="#myModal">report</a>
                     </div>
                 </li>
                 <li class="media">
@@ -186,7 +203,7 @@ while($row = mysql_fetch_assoc($result))
                     <div class="media-body">
                         <h4 class="media-heading"><b>User b</b><span class="date">02.12.14 13:46</span></h4>
                         <div class="body-comment">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit</div>
-                        <a class="link-report btn btn-sm btn-warning" href="">report</a>
+                        <a class="link-report btn btn-sm btn-warning" href="" data-toggle="modal" data-target="#myModal">report</a>
                     </div>
                 </li>
                 <li class="media">
@@ -213,18 +230,18 @@ while($row = mysql_fetch_assoc($result))
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">
                     <span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="myModalLabel">Report</h4>
+                <h4 class="modal-title" id="myModalLabel">Report a spam</h4>
             </div>
             <div class="modal-body">
                 <form class="form-modal" method="post" action="" role="form">
                     <div class="form-group">
-                        <textarea class="form-control" rows="3"></textarea>
+                        <textarea class="form-control" rows="5"></textarea>
                     </div>
+                    <span class="text-info">Write your opinion</span>
                 </form>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="submit" class="btn btn-default">Send</button>
             </div>
         </div>
     </div>

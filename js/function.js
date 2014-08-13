@@ -6,17 +6,17 @@ $(document).ready(function() {
         if ($(this).hasClass("open"))
         {
             $(this).removeClass("open");
-            $("#category").animate({"height": 540})
-            $(".btn .oc").show()
-            $(".btn .cc").hide()
+            $("#category").animate({"height": 540});
+            $(".btn .oc").show();
+            $(".btn .cc").hide();
         } else {
             $(this).addClass("open");
-            $("#category").animate({"height": catheight})
-            $(".btn .oc").hide()
-            $(".btn .cc").show()
+            $("#category").animate({"height": catheight});
+            $(".btn .oc").hide();
+            $(".btn .cc").show();
         }
 
-    })
+    });
     //Initialize Bootstrap Switch.
     $("input[type='checkbox'][name='onoff']").bootstrapSwitch();
     // initialize with defaults rating stars
@@ -24,7 +24,7 @@ $(document).ready(function() {
     
     //TOGGLE SEARCH CONTENT
     $('#search-result li .btn_read_more').click(function() {
-    var temp = $(this)
+    var temp = $(this);
     var filterNum = $(this).parents('li').attr('class').match(/\d+/);
     var resultH = $('#search-result .result-' + filterNum + ' article').outerHeight();
     $('.result-' + filterNum + ' .result-toggle').animate({'height':resultH});
@@ -37,6 +37,28 @@ $(document).ready(function() {
     $('#search-result .result-' + filterNum + ' .btn_less').hide();
     });
         return false;
+    });
+    
+    //CLICK SHOW EMAIL & NUMBER
+    $(".click-show-email").click(function(){
+        $("#uEmail").show();
+        $(this).hide();
+    });
+    $(".click-show-number").click(function(){
+        $("#uNumber").show();
+        $(this).hide();
+    });
+    //CLICK TOGGLE PROFILE DESCRIPTION
+    $("#profileDesc .click-show-profile-desc").click(function(){
+        var updHeight = $("#profileDesc .profile-desc-collapse > div").outerHeight();
+        $(".profile-desc-collapse").animate({"height": updHeight},500);
+        $(this).hide();
+        $("#profileDesc .click-hide-profile-desc").show();
+    });
+    $("#profileDesc .click-hide-profile-desc").click(function(){
+        $(".profile-desc-collapse").animate({"height": "130"},500);
+        $(this).hide();
+        $("#profileDesc .click-show-profile-desc").show();
     });
 });//END DOCUMENT
 
