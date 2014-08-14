@@ -652,7 +652,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#464646', end
 }
 .theme-style .panel-heading {
     border: none;
-    border-radius: 0;
     margin: -1px;
     color: #fff;
 }
@@ -965,3 +964,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#464646', end
 right: 7px;
 top: 12px;
 }
+/*menu list category
+-------------------------------------------------*/
+.menu-list-category ul {
+    padding-left: 0px;
+}
+.menu-list-category li {
+    display: block;
+}
+.menu-list-category li .list-group-item {
+    border: none;
+}
+.menu-list-category .list-group .list-group-item:after {content: "";}
