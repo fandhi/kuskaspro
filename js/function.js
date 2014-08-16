@@ -56,7 +56,7 @@ $(document).ready(function() {
         $("#profileDesc .click-hide-profile-desc").show();
     });
     $("#profileDesc .click-hide-profile-desc").click(function(){
-        $(".profile-desc-collapse").animate({"height": "130"},500);
+        $(".profile-desc-collapse").animate({"height": "123"},500);
         $(this).hide();
         $("#profileDesc .click-show-profile-desc").show();
     });

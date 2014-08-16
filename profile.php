@@ -2,21 +2,21 @@
 include 'inc_header.php';
 include 'main-menu-after-login.php';
 // Error reporting:
-error_reporting(E_ALL^E_NOTICE);
-
-include "connect.php";
-include "comment.class.php";
+//error_reporting(E_ALL^E_NOTICE);
+//
+//include "connect.php";
+//include "comment.class.php";
 /*
 /	Select all the comments and populate the $comments array with objects
 */
 
-$comments = array();
-$result = mysql_query("SELECT * FROM comments ORDER BY id DESC");
-
-while($row = mysql_fetch_assoc($result))
-{
-	$comments[] = new Comment($row);
-}
+//$comments = array();
+//$result = mysql_query("SELECT * FROM comments ORDER BY id DESC");
+//
+//while($row = mysql_fetch_assoc($result))
+//{
+//	$comments[] = new Comment($row);
+//}
 ?>
 <div class="container">
     <div class="row">
@@ -27,7 +27,7 @@ while($row = mysql_fetch_assoc($result))
             <div id="boxRating" class="col-sm-12 col-md-11 prefix_0 pasfix_0">
                 <h4>Customer ratings</h4>
                 <div class="cos-ratings">
-                    <div class="text-center append_bottom_3">
+                    <div class="append_bottom_3">
                         <p><button class="btn btn-default btn-block bold text-center click-show-email" type="button">Mail</button>
                             <a id="uEmail" href="mailto:example@example.com">example@example.com</a>
                         </p>
@@ -184,9 +184,9 @@ while($row = mysql_fetch_assoc($result))
                   /	Output the comments one by one:
                  */
 
-                foreach ($comments as $c) {
-                    echo $c->markup();
-                }
+//                foreach ($comments as $c) {
+//                    echo $c->markup();
+//                }
                 ?>
                 <li id="comment1" class="media">
                     <a class="pull-left" href="#">
