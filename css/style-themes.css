@@ -300,8 +300,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#464646', end
 .theme-style .navbar-default .navbar-nav > .active > a,
 .theme-style .navbar-default .navbar-nav > .active > a:hover,
 .theme-style .navbar-default .navbar-nav > .active > a:focus {
-    color: #fff;
+    color: #303030;
 }
+.theme-style .navbar-default a.text-uppercase:hover {color:#9B9B9B;} 
 .theme-style .navbar-nav > li > a,
 .theme-style .navbar-default .navbar-brand {
     padding: 19px;
