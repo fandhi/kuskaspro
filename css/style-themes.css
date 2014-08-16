@@ -762,12 +762,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#464646', end
 /*profile description
 -------------------------------------------------*/
 .profile-desc-collapse {
-    
-    height: 130px;
+    height: 123px;
+    margin-bottom: 10px;
     overflow: hidden;
+    text-align: justify;
 }
 .line-gradient-1 {
     background: url(../img/material/gradient-1.png) repeat-x left top;
+    bottom: 0px;
+    height: 10px;
+    position: absolute;
+    width: 100%;
 }
 .click-show-profile-desc,.click-hide-profile-desc {cursor: pointer;}
 .click-hide-profile-desc {display: none;}
@@ -798,7 +803,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#464646', end
     right: 10px;
     top: 10px;
 }
-.user-timeline .media-list li#liComment {background: transparent;}
+.user-timeline .media-list li#liComment {
+    background: transparent;
+    padding-bottom: 0px;
+}
 .user-timeline .media-list li {
     background: url(../img/material/diagonal.png) repeat-x bottom;
     padding-bottom: 20px;
@@ -820,6 +828,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#464646', end
 .user-timeline .media-list li:first-child .media-body {
     background: transparent;
     border: none;
+    padding-bottom: 0px;
     box-shadow:1px 1px 5px rgba(0,0,0,0);
     -webkit-box-shadow:1px 1px 5px rgba(0,0,0,0);
     -moz-box-shadow: 1px 1px 5px rgba(0,0,0,0);
@@ -866,7 +875,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#464646', end
 }
 .user-timeline .media-list li .link-report {
     color: #181818;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: bold;
     bottom: 5px;
     right: 8px;
