@@ -762,8 +762,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#464646', end
 /*profile description
 -------------------------------------------------*/
 .profile-desc-collapse {
+    
     height: 130px;
     overflow: hidden;
+}
+.line-gradient-1 {
+    background: url(../img/material/gradient-1.png) repeat-x left top;
 }
 .click-show-profile-desc,.click-hide-profile-desc {cursor: pointer;}
 .click-hide-profile-desc {display: none;}
@@ -790,8 +794,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#464646', end
 .user-timeline .media-list .date {
     color: #B6B6B6;
     font-size: 12px;
-    float: right;
+    position: absolute;
+    right: 10px;
+    top: 10px;
 }
+.user-timeline .media-list li#liComment {background: transparent;}
 .user-timeline .media-list li {
     background: url(../img/material/diagonal.png) repeat-x bottom;
     padding-bottom: 20px;
@@ -848,10 +855,29 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#464646', end
 .user-timeline .media-list .body-comment {
     
 }
-.user-timeline .media-list li .link-report {
-    bottom: 5px;
-    right: 5px;
+.user-timeline .media .ua-comment {
+    height: 60px;
+    margin-bottom: 8px;
+    overflow: hidden;
+}
+.user-timeline .media-list .btn_read_more,.user-timeline .media-list .btn_read_less {
+    bottom: 8px;
     position: absolute;
+}
+.user-timeline .media-list li .link-report {
+    color: #181818;
+    font-size: 11px;
+    font-weight: bold;
+    bottom: 5px;
+    right: 8px;
+    padding: 3px 5px;
+    position: absolute;
+    border-radius: 4px;
+}
+.user-timeline .media-list li .link-report:hover {
+    background: #383838;
+    color: #fff;
+    text-decoration: none;
 }
 .user-timeline .label-rating {
     float: left;
@@ -900,7 +926,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#464646', end
     text-align: justify;
 }
 /*.searh-result .media-body .btn {padding: 6px 13px;}*/
-#search-result .media-body .btn_less {display: none;}
+.btn_less {display: none;}
 #search-result .result-toggle {
     height: 60px;
     overflow: hidden;

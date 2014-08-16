@@ -10,13 +10,13 @@ include "comment.class.php";
 /	Select all the comments and populate the $comments array with objects
 */
 
-/*$comments = array();
+$comments = array();
 $result = mysql_query("SELECT * FROM comments ORDER BY id DESC");
 
 while($row = mysql_fetch_assoc($result))
 {
 	$comments[] = new Comment($row);
-}*/
+}
 ?>
 <div class="container">
     <div class="row">
@@ -94,7 +94,8 @@ while($row = mysql_fetch_assoc($result))
                 <h4>Description</h4>
                 <div class="profile-desc-collapse">
                     <div>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit</p>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit, facilisi antiopam sea ei, usu ex delectus laboramus reformidans. 
+                    Te sea mutat assentior, duo ei dicat quaestio suscipiantur, feugiat tractatos conclusionemque at vis. </p>
                 <p>Pri iudico aperiri cu. Pri semper salutatus ut, te sit erat facilisi. Ut putant ceteros iudicabit duo, homero labore fuisset vel at. 
                     Et impedit fuisset nec. Mei consul temporibus scribentur ex, consul facilisi antiopam sea ei, usu ex delectus laboramus reformidans. 
                     Te sea mutat assentior, duo ei dicat quaestio suscipiantur, feugiat tractatos conclusionemque at vis. 
@@ -104,9 +105,10 @@ while($row = mysql_fetch_assoc($result))
                     nam posidonium elaboraret signiferumque id.</p>
                     </div>
                 </div>
-                
-                <span class="click-show-profile-desc text-info">Read more</span>
-                <span class="click-hide-profile-desc text-info">Less</span>
+                <div class="line-gradient-1">
+                    <span class="click-show-profile-desc text-info">Read more</span>
+                    <span class="click-hide-profile-desc text-info">Less</span>
+                </div>
             </div>
             <div class="col-sm-12 col-md-6">
                 <table class="table-custom highlight">
@@ -182,40 +184,79 @@ while($row = mysql_fetch_assoc($result))
                   /	Output the comments one by one:
                  */
 
-//                foreach ($comments as $c) {
-//                    echo $c->markup();
-//                }
+                foreach ($comments as $c) {
+                    echo $c->markup();
+                }
                 ?>
-<!--                <li class="media">
+                <li id="comment1" class="media">
                     <a class="pull-left" href="#">
                         <img class="img-circle" src="img/content/profile/imgres.jpg" alt="...">
                     </a>
                     <div class="media-body">
-                        <h4 class="media-heading"><b>User a</b><span class="date">02.12.14 13:46</span></h4>
-                        <div class="body-comment">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit</div>
-                        <a class="link-report btn btn-sm btn-warning" href="" data-toggle="modal" data-target="#myModal">report</a>
+                        <div class="ua-comment">
+                            <h4 class="media-heading"><b>User a</b><span class="date">02.12.14 13:46</span></h4>
+                            <div class="body-comment">
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit</p>
+                            <p>Pri iudico aperiri cu. Pri semper salutatus ut, te sit erat facilisi. Ut putant ceteros iudicabit duo, homero labore fuisset vel at. 
+                    Et impedit fuisset nec. Mei consul temporibus scribentur ex, consul facilisi antiopam sea ei, usu ex delectus laboramus reformidans. 
+                    Te sea mutat assentior, duo ei dicat quaestio suscipiantur, feugiat tractatos conclusionemque at vis. 
+                    Ut labores repudiare theophrastus eum, cum in nisl impetus eripuit.</p>
+                <p>Mutat tibique vel ad, sed soluta dolorum postulant ei, ad his soluta accusam oporteat. Vide accommodare quo in, 
+                    vel quot deserunt mediocritatem in. Pri ad possit definitiones. Eos indoctum consulatu no, nominavi laboramus ius ut, 
+                    nam posidonium elaboraret signiferumque id.</p>
+                            </div>
+                        </div>
+                        <button class="btn btn-info btn-xs append_top_1 btn_read_more" type="button">More...</button>
+                        <button class="btn btn-info btn-xs append_top_1 btn_less" type="button">Less</button>
+                        <a class="link-report" href="" data-toggle="modal" data-target="#myModal">report</a>
                     </div>
                 </li>
-                <li class="media">
+                <li id="comment2" class="media">
                     <a class="pull-left" href="#">
                         <img class="img-circle" src="img/content/profile/user.jpg" alt="...">
                     </a>
                     <div class="media-body">
-                        <h4 class="media-heading"><b>User b</b><span class="date">02.12.14 13:46</span></h4>
-                        <div class="body-comment">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit</div>
-                        <a class="link-report btn btn-sm btn-warning" href="" data-toggle="modal" data-target="#myModal">report</a>
+                        <div class="ua-comment">
+                            <h4 class="media-heading"><b>User b</b><span class="date">02.12.14 13:46</span></h4>
+                            <div class="body-comment">
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit</p>
+                            <p>Pri iudico aperiri cu. Pri semper salutatus ut, te sit erat facilisi. Ut putant ceteros iudicabit duo, homero labore fuisset vel at. 
+                    Et impedit fuisset nec. Mei consul temporibus scribentur ex, consul facilisi antiopam sea ei, usu ex delectus laboramus reformidans. 
+                    Te sea mutat assentior, duo ei dicat quaestio suscipiantur, feugiat tractatos conclusionemque at vis. 
+                    Ut labores repudiare theophrastus eum, cum in nisl impetus eripuit.</p>
+                <p>Mutat tibique vel ad, sed soluta dolorum postulant ei, ad his soluta accusam oporteat. Vide accommodare quo in, 
+                    vel quot deserunt mediocritatem in. Pri ad possit definitiones. Eos indoctum consulatu no, nominavi laboramus ius ut, 
+                    nam posidonium elaboraret signiferumque id.</p>
+                            </div>
+                        </div>
+                        <button class="btn btn-info btn-xs append_top_1 btn_read_more" type="button">More...</button>
+                        <button class="btn btn-info btn-xs append_top_1 btn_less" type="button">Less</button>
+                        <a class="link-report" href="" data-toggle="modal" data-target="#myModal">report</a>
                     </div>
                 </li>
-                <li class="media">
+                <li id="comment3" class="media">
                     <a class="pull-left" href="#">
                         <img class="img-circle" src="img/content/profile/images.jpg" alt="...">
                     </a>
                     <div class="media-body">
-                        <h4 class="media-heading"><b>User c</b><span class="date">02.12.14 13:46</span></h4>
-                        <div class="body-comment">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit</div>
-                        <a class="link-report btn btn-sm btn-warning" href="" data-toggle="modal" data-target="#myModal">report</a>
+                        <div class="ua-comment">
+                            <h4 class="media-heading"><b>User c</b><span class="date">02.12.14 13:46</span></h4>
+                            <div class="body-comment">
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit</p>
+                            <p>Pri iudico aperiri cu. Pri semper salutatus ut, te sit erat facilisi. Ut putant ceteros iudicabit duo, homero labore fuisset vel at. 
+                    Et impedit fuisset nec. Mei consul temporibus scribentur ex, consul facilisi antiopam sea ei, usu ex delectus laboramus reformidans. 
+                    Te sea mutat assentior, duo ei dicat quaestio suscipiantur, feugiat tractatos conclusionemque at vis. 
+                    Ut labores repudiare theophrastus eum, cum in nisl impetus eripuit.</p>
+                <p>Mutat tibique vel ad, sed soluta dolorum postulant ei, ad his soluta accusam oporteat. Vide accommodare quo in, 
+                    vel quot deserunt mediocritatem in. Pri ad possit definitiones. Eos indoctum consulatu no, nominavi laboramus ius ut, 
+                    nam posidonium elaboraret signiferumque id.</p>
+                            </div>
+                        </div>
+                        <button class="btn btn-info btn-xs append_top_1 btn_read_more" type="button">More...</button>
+                        <button class="btn btn-info btn-xs append_top_1 btn_less" type="button">Less</button>
+                        <a class="link-report" href="" data-toggle="modal" data-target="#myModal">report</a>
                     </div>
-                </li>-->
+                </li>
             </ul>
 
         </div>
