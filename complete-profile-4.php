@@ -4,9 +4,9 @@ include 'main-menu-after-login.php';
 ?>
 <div class="container">
     <div class="row">
-        <div class="panel panel-primary">
+        <div class="panel panel-primary inverse-theme">
             <div class="panel-heading">
-                <h3 class="panel-title">Complete your profile</h3>
+                <h3 class="panel-title">Review your profile</h3>
             </div>
             <div class="thumbnail col-sm-2 col-xs-push-1 append_top_4">
                 <img class="img-thumbnail" src="img/material/user.jpg" alt="user"/>

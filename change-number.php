@@ -10,7 +10,7 @@ include 'main-menu-after-login.php';
                 <label>Please confirm your country code and enter your phone number.</label>
                 <div class="form-group">
                     <div class="arrow"></div>
-                    <input type="email" class="form-control" id="" name="" placeholder="" value="India">
+                    <input type="email" class="form-control" id="" name="" placeholder="" value="India" disabled>
                     <!--<span class="control-label">This field is required.</span>-->
                 </div>
                 <div class="form-group">

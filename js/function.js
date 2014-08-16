@@ -77,6 +77,17 @@ $(document).ready(function() {
         });
         return false;
     });
+    
+    //HOVER UNVERIFY
+    if( $(".cos-ratings .unv").mouseover(function(){
+        $(".cos-ratings .unv").hide();
+        $(".cos-ratings .ver").show();
+    })){
+         
+    } if ($(".cos-ratings .ver").mouseleave(function(){
+        $(".cos-ratings .unv").show();
+        $(".cos-ratings .ver").hide();
+    }));
 });//END DOCUMENT
 
 

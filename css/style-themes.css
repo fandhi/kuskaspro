@@ -911,6 +911,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#464646', end
 .cos-ratings #uEmail,.cos-ratings #uNumber {
     display: none;
 }
+/*.cos-ratings .pull-right.text-danger:hover > .ver {display: block;}*/
+.cos-ratings .ver {display: none;}
 /*Comment
 -------------------------------------------------*/
 #respond {
