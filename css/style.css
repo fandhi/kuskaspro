@@ -293,9 +293,9 @@ article {
 	top: 4px;
 }
 footer {
-	background: #5c6162;
-	height: 80px;
-	line-height: 90px;
+	background: #545454;
+	padding-top: 15px;
+        padding-bottom: 15px;
 	text-align: center;
 	color: #edecec;
 	padding-left: 95px;
@@ -305,6 +305,5 @@ footer:after {
 	content: '';
 	float: right;
 	width: 95px;
-	height: 80px;
 	margin-right: 20px;
 }

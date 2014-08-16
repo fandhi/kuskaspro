@@ -10,13 +10,13 @@ include "comment.class.php";
 /	Select all the comments and populate the $comments array with objects
 */
 
-$comments = array();
+/*$comments = array();
 $result = mysql_query("SELECT * FROM comments ORDER BY id DESC");
 
 while($row = mysql_fetch_assoc($result))
 {
 	$comments[] = new Comment($row);
-}
+}*/
 ?>
 <div class="container">
     <div class="row">
@@ -153,7 +153,7 @@ while($row = mysql_fetch_assoc($result))
         </div>
         <p class="clearfix"></p>
     </div><!--end row-->
-    <div class="row">
+    <div class="row append_bottom_4">
         
         <div class="user-timeline col-md-8 pull-right">
             <ul class="media-list">
@@ -182,11 +182,11 @@ while($row = mysql_fetch_assoc($result))
                   /	Output the comments one by one:
                  */
 
-                foreach ($comments as $c) {
-                    echo $c->markup();
-                }
+//                foreach ($comments as $c) {
+//                    echo $c->markup();
+//                }
                 ?>
-                <li class="media">
+<!--                <li class="media">
                     <a class="pull-left" href="#">
                         <img class="img-circle" src="img/content/profile/imgres.jpg" alt="...">
                     </a>
@@ -215,7 +215,7 @@ while($row = mysql_fetch_assoc($result))
                         <div class="body-comment">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit</div>
                         <a class="link-report btn btn-sm btn-warning" href="" data-toggle="modal" data-target="#myModal">report</a>
                     </div>
-                </li>
+                </li>-->
             </ul>
 
         </div>
