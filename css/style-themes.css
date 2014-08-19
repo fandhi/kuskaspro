@@ -919,6 +919,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#464646', end
 }
 /*.cos-ratings .pull-right.text-danger:hover > .ver {display: block;}*/
 .cos-ratings .ver {display: none;}
+.cos-ratings .rating-container {font-size: 18px;}
 /*Comment
 -------------------------------------------------*/
 #respond {

@@ -37,11 +37,9 @@ include 'main-menu-after-login.php';
                     </div>
                     <div class="col-sm-6 col-md-6 col-lg-4">
                         <div class="total-ratings">5,0</div>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
+                        <div class="rating-container rating-gly-star" data-content="">
+                            <div class="rating-stars" data-content="" style="width: 100%;"></div>
+                        </div>
                         <h6 class="total-ratings-number">8,893,372</h6>
                     </div>
                     <div class="col-sm-6 col-lg-8">
