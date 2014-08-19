@@ -224,9 +224,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#464646', end
 }
 .theme-style .navbar-form .form-group .glyphicon {
     position: absolute;
-    left: 7px;
+    right: 7px;
     top: 50%;
     margin-top: -7px;
+}
+.theme-style .navbar-form .form-group button.glyphicon {
+    background: transparent;
+    border: none;
+    height: 15px;
+    width: 22px;
 }
 .navbar-form .form-group select {
     margin-right: 5px;

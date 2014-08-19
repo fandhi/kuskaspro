@@ -17,7 +17,7 @@
                 <form class="navbar-form navbar-left" role="search">
                     <div class="form-group append-right-1">
                         <input type="text" class="form-control prefix_3" placeholder="Search">
-                        <span class="glyphicon glyphicon-search"></span>
+                        <button class="glyphicon glyphicon-search"></button>
                     </div>
                     <div class="form-group">
                         <a class="text-uppercase" href="">Browse</a>
