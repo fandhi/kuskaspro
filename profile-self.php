@@ -20,7 +20,7 @@ include 'main-menu-after-login.php';
 ?>
 <div class="container">
     <div class="row">
-        <div class="col-sm-6 col-md-4">
+        <div id="profilePic" class="col-sm-6 col-md-4">
             <div class="thumbnail">
                 <img src="img/content/profile/stock-photo-business-woman-portrait-crossed-arms-128709044.jpg" alt="stock-photo-business-woman-portrait-crossed-arms-128709044"/>
             </div>

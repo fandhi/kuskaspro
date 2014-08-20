@@ -340,10 +340,7 @@ body {
   background-color: #ffffff;
 }
 
-input,
-button,
-select,
-textarea {
+input,button,select,textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
@@ -450,82 +447,38 @@ cite {  font-style: normal;}
 .text-center {  text-align: center!important;}
 .text-uppercase {text-transform: uppercase!important;}
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
+h1,h2,h3,h4,h5,h6,
+.h1,.h2,.h3,.h4,.h5,.h6 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
 }
 
-h1 small,
-h2 small,
-h3 small,
-h4 small,
-h5 small,
-h6 small,
-.h1 small,
-.h2 small,
-.h3 small,
-.h4 small,
-.h5 small,
-.h6 small,
-h1 .small,
-h2 .small,
-h3 .small,
-h4 .small,
-h5 .small,
-h6 .small,
-.h1 .small,
-.h2 .small,
-.h3 .small,
-.h4 .small,
-.h5 .small,
-.h6 .small {
+h1 small,h2 small,h3 small,h4 small,h5 small,h6 small,
+.h1 small,.h2 small,.h3 small,.h4 small,.h5 small,.h6 small,
+h1 .small,h2 .small,h3 .small,h4 .small,h5 .small,h6 .small,
+.h1 .small,.h2 .small,.h3 .small,.h4 .small,.h5 .small,.h6 .small {
   font-weight: normal;
   line-height: 1;
   color: #999999;
 }
 
-h1,
-h2,
-h3 {
+h1,h2,h3 {
   margin-top: 20px;
   margin-bottom: 10px;
 }
 
-h1 small,
-h2 small,
-h3 small,
-h1 .small,
-h2 .small,
-h3 .small {
+h1 small,h2 small,h3 small,h1 .small,h2 .small,h3 .small {
   font-size: 65%;
 }
 
-h4,
-h5,
-h6 {
+h4,h5,h6 {
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-h4 small,
-h5 small,
-h6 small,
-h4 .small,
-h5 .small,
-h6 .small {
+h4 small,h5 small,h6 small,h4 .small,h5 .small,h6 .small {
   font-size: 75%;
 }
 
@@ -547,10 +500,7 @@ ul,ol {
   margin-bottom: 10px;
 }
 
-ul ul,
-ol ul,
-ul ol,
-ol ol {
+ul ul,ol ul,ul ol,ol ol {
   margin-bottom: 0;
 }
 

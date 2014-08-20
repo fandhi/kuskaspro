@@ -832,7 +832,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#464646', end
     -webkit-box-shadow:1px 1px 5px rgba(0,0,0,.2);
     -moz-box-shadow: 1px 1px 5px rgba(0,0,0,.2);
 }
-.user-timeline .media-list li.media-comment.media-body {
+.user-timeline .media-list li.media-comment .media-body {
     background: transparent;
     border: none;
     padding-bottom: 0px;
@@ -903,7 +903,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#464646', end
     float: left;
     line-height: 20px;
 }
-
+/*profilePic
+-------------------------------------------------*/
+#profilePic {min-height: 550px;}
 /*cos-ratings
 -------------------------------------------------*/
 #boxRating {

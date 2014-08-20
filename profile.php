@@ -20,7 +20,7 @@ include 'main-menu-after-login.php';
 ?>
 <div class="container">
     <div class="row">
-        <div class="col-sm-6 col-md-4">
+        <div id="profilePic" class="col-sm-6 col-md-4">
             <div class="thumbnail">
                 <img src="img/content/profile/stock-photo-business-woman-portrait-crossed-arms-128709044.jpg" alt="stock-photo-business-woman-portrait-crossed-arms-128709044"/>
             </div>
@@ -176,7 +176,7 @@ include 'main-menu-after-login.php';
                                     <label class="label-rating">Rating :</label>
                                     <input id="star" name="star" class="rating " data-min="0" data-max="5" data-step="1" data-size="xs">
                                 </div>
-                                <input id="submit" type="submit" class="btn btn-default" value="Submit">
+                                <input id="submit" type="submit" class="btn btn-default pull-right" value="Submit">
                             </div>
                         </form>
                     </div>
