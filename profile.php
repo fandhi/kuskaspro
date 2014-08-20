@@ -112,6 +112,10 @@ include 'main-menu-after-login.php';
                 <table class="table-custom highlight">
                     <tbody>
                         <tr>
+                            <td><b>Iqbal</b></td>
+                            <td></td>
+                        </tr>
+                        <tr>
                             <td><b>Category</b></td>
                             <td>IT</td>
                         </tr>
@@ -157,7 +161,7 @@ include 'main-menu-after-login.php';
         
         <div class="user-timeline col-md-8 pull-right">
             <ul class="media-list">
-                <li id="liComment" class="media">
+                <li id="liComment" class="media media-comment">
                     <a class="pull-left" href="#">
                         <img class="img-circle" src="img/content/profile/creative-person.jpg" alt="...">
                     </a>

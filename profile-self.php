@@ -41,11 +41,9 @@ include 'main-menu-after-login.php';
                     </div>
                     <div class="col-sm-6 col-md-6 col-lg-4">
                         <div class="total-ratings">5,0</div>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
+                        <div class="rating-container rating-gly-star" data-content="">
+                            <div class="rating-stars" data-content="" style="width: 100%;"></div>
+                        </div>
                         <h6 class="total-ratings-number">8,893,372</h6>
                     </div>
                     <div class="col-sm-6 col-lg-8">
@@ -163,26 +161,7 @@ include 'main-menu-after-login.php';
         
         <div class="user-timeline col-md-8 pull-right">
             <ul class="media-list">
-                <li id="liComment" class="media">
-                    <a class="pull-left" href="#">
-                        <img class="img-circle" src="img/content/profile/creative-person.jpg" alt="...">
-                    </a>
-                    <div class="media-body">
-                        <form id="addCommentForm" class="form-horizontal col-md-12" method="post" action="" role="form">
-                            <input type="hidden"  name="name" id="name" value="User d">
-                            <div class="form-group">
-                                <textarea id="comment" name="comment" rows="4" class="form-control" placeholder="Leave Comment"></textarea>
-                            </div>
-                            <div class="form-group">
-                                <div class="col-md-10">
-                                    <label class="label-rating">Rating :</label>
-                                    <input id="star" name="star" class="rating " data-min="0" data-max="5" data-step="1" data-size="xs">
-                                </div>
-                                <input id="submit" type="submit" class="btn btn-default" value="Submit">
-                            </div>
-                        </form>
-                    </div>
-                </li>
+                
                 <?php
                 /*
                   /	Output the comments one by one:
