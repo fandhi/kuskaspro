@@ -120,8 +120,9 @@ include 'main-menu-after-login.php';
             </div>
         </div>
     </div>
-    <button class="btn btn-default clearfix center-block" type="button" data-toggle="" data-target="#restCategory">
-        <span class="oc">View all categories</span><span class="cc">Close</span></button>
+    <button class="btn btn-default clearfix center-block" type="button" onclick="window.location='view-all-categories.php';">
+        <span class="oc">View all categories</span>
+    </button>
     <!--end row-->
 </div>
 <?php include 'inc_footer.php'; ?>  
