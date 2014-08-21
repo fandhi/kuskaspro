@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     //SHOW HIDE BUTTON
-    $("#category + .btn.btn-default").click(function() {
+    /*$("#category + .btn.btn-default").click(function() {
         catheight = $("#category .row").innerHeight();
         if ($(this).hasClass("open"))
         {
@@ -15,8 +15,8 @@ $(document).ready(function() {
             $(".btn .oc").hide();
             $(".btn .cc").show();
         }
+    });*/
 
-    });
     //Initialize Bootstrap Switch.
     $("input[type='checkbox'][name='onoff']").bootstrapSwitch();
     // initialize with defaults rating stars
