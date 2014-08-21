@@ -787,6 +787,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#464646', end
 -------------------------------------------------*/
 .user-timeline {
     margin: 20px auto;
+    min-height: 200px;
     /*width: 100%;*/
 }
 .user-timeline .pull-left {
@@ -905,7 +906,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#464646', end
 }
 /*profilePic
 -------------------------------------------------*/
-#profilePic {min-height: 550px;}
+#profilePic {}
 /*cos-ratings
 -------------------------------------------------*/
 #boxRating {
