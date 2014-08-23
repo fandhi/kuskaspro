@@ -88,6 +88,124 @@ $(document).ready(function() {
         $(".cos-ratings .unv").show();
         $(".cos-ratings .ver").hide();
     }));
+    
+    //EDITABLES 
+    $.fn.editable.defaults.mode = 'inline';
+    $(".profile-edittable").editable({url: '/post'}) ;
+    $('#expertise').editable("option", "validate", function(v){
+           if(!v) return "Required field";
+    });
+    $("#salaryRange").editable({
+        validate: function(value) {
+            if($.trim(value) == "") return "This field is required";
+        }
+    });
+    $("#name").editable({
+        validate: function(value) {
+            if($.trim(value) == "") return "This field is required";
+        }
+    });
+    $("#age").editable({
+        validate: function(value) {
+            if($.trim(value) == "") return "This field is required";
+        }
+    });
+    $.mockjax({
+        url: '/gender',
+        responseText: {
+            0: 'Guest',
+            1: 'Service',
+            2: 'Customer',
+            3: 'Operator',
+            4: 'Support',
+            5: 'Admin'
+        }
+    });
+//    $("#gender").editable({
+//        prepend: "Not selected",
+//        source: [
+//            {value: 1, text: "Male"},
+//            {value: 2, text: "Female"}
+//        ],
+//        display: function(value, sourceData) {
+//            var colors = {"": "gray", 1: "green", 2: "blue"},
+//                    elem = $.grep(sourceData, function(o){return o.value == value;});
+//            if(elem.length) {
+//                $(this).text().text(elem[0].text).css("color", colors[value]);
+//            }else{
+//                $(this).empty();
+//            }
+//        }
+//    });
+    $("#location").editable({
+        validate: function(value) {
+            if($.trim(value) == "") return "This field is required";
+        }
+    });
+    $("#salaryRange").editable({
+        validate: function(value) {
+            if($.trim(value) == "") return "This field is required";
+        }
+    });
+    $("#contact").editable({
+        validate: function(value) {
+            if($.trim(value) == "") return "This field is required";
+        }
+    });
+    $("#description").editable({
+        validate: function(value) {
+            if($.trim(value) == "") return "This field is required";
+        }
+    });
+    //automatically show next editable
+    $(".profile-edittable").on("save.newuser", function(){
+        var that = this;
+        setTimeout(function(){
+            $(that).closest("tr"),next().find(".profile-edittable").editable("show");
+        }, 200);
+    });
+    //SAVE CONTENT EDITABLE
+    $("#saveBtn").click(function(){
+        $(".profile-edittable").editable("submit", {
+            ur: "/newuser",
+            ajaxOptions: {
+                dataType: "json"
+            },
+            success: function(data, config) {
+                if(data && data.id) {
+                    $this.editable("option", "pk", data.id);
+                    $(this).removeClass("editable-unsaved");
+                    var msg = "New user created! ";
+                    $("#msg").addClass("aler-success").removeClass("alert-error").html(msg).show();
+                    $("#saveBtn").hide();
+                    $(this).off("save.newuser");
+                } else if("save.newuser"){
+                    config.error.call(this, data.errors);
+                };
+            },
+                    error: function(errors) {
+                var msg = "";
+                if(errors && errors.responseText) {
+                    msg = errors.responseText;
+                } else {
+                    $.each(errors, function(k, v) {
+                        msg += k+":"+v+"<br>";
+                    });
+                }
+                $("#msg").removeClass("alert-success").addClass("alert-error").html(msg).show();
+                    }
+        });
+        
+        $("#resetBtn").click(function() {
+            $(".myeditable").editable("setValue", null)  //clear values
+                    .editable("option", "pk", null)          //clear pk
+                    .removeClass("editable-unsaved");        //remove bold css
+
+            $("#saveBtn").show();
+            $("#msg").hide();
+        });
+    });    //END EDITABLE
+    
 });//END DOCUMENT
 
 

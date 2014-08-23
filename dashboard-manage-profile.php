@@ -15,12 +15,12 @@ include 'main-menu-after-login.php';
         <div id="dashboardContent" class="col-sm-8 col-md-9">
             <h3>Manage Profile</h3>
             <div class="col-xs-6 col-md-3">
-                <div class="thumbnail">
+                <a class="thumbnail" href="dashboard-manage-profile-update.php">
                     <img src="img/material/90-Silver-Blank-Card-01.jpg" alt="...">
-                    <div class="caption">
+                    <span class="caption">
                         <p>Profile card</p>
-                    </div>
-                </div>
+                    </span>
+                </a>
             </div>
             <div class="col-xs-6 col-md-3">
                 <button type="button" class="btn btn-default glyphicon glyphicon-plus" disabled>

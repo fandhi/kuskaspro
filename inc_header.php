@@ -16,6 +16,7 @@
         <link href="css/horizontal.css" rel="stylesheet">
         <link href="css/star-rating.css" rel="stylesheet">
         <link href="css/docs.min.css" rel="stylesheet">
+        <link href="css/bootstrap-editable.css" rel="stylesheet">
     </head>
     <body class="theme-style green-theme">
         
