@@ -10,7 +10,7 @@ include 'main-menu-after-login.php';
                 <div class="caption mask">
                     <h3>Tukang Cat</h3>
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
-                    <a href="#" class="btn btn-default" role="button">Button</a>
+                    <a href="category-view.php" class="btn btn-default" role="button">Button</a>
                 </div>
             </div>
         </div>
@@ -20,7 +20,7 @@ include 'main-menu-after-login.php';
                 <div class="caption mask">
                     <h3>Akuntan</h3>
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
-                    <a href="#" class="btn btn-default" role="button">Button</a>
+                    <a href="category-view.php" class="btn btn-default" role="button">Button</a>
                 </div>
             </div>
         </div>
@@ -30,7 +30,7 @@ include 'main-menu-after-login.php';
                 <div class="caption mask">
                     <h3>Tukang Kayu</h3>
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
-                    <a href="#" class="btn btn-default" role="button">Button</a>
+                    <a href="category-view.php" class="btn btn-default" role="button">Button</a>
                 </div>
             </div>
         </div>
@@ -40,7 +40,7 @@ include 'main-menu-after-login.php';
                 <div class="caption mask">
                     <h3>Dokter Umum</h3>
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
-                    <a href="#" class="btn btn-default" role="button">Button</a>
+                    <a href="category-view.php" class="btn btn-default" role="button">Button</a>
                 </div>
             </div>
         </div>
@@ -50,7 +50,7 @@ include 'main-menu-after-login.php';
                 <div class="caption mask">
                     <h3>Tukang Cat</h3>
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
-                    <a href="#" class="btn btn-default" role="button">Button</a>
+                    <a href="category-view.php" class="btn btn-default" role="button">Button</a>
                 </div>
             </div>
         </div>
@@ -60,7 +60,7 @@ include 'main-menu-after-login.php';
                 <div class="caption mask">
                     <h3>Akuntan</h3>
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
-                    <a href="#" class="btn btn-default" role="button">Button</a>
+                    <a href="category-view.php" class="btn btn-default" role="button">Button</a>
                 </div>
             </div>
         </div>
@@ -70,7 +70,7 @@ include 'main-menu-after-login.php';
                 <div class="caption mask">
                     <h3>Tukang Kayu</h3>
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
-                    <a href="#" class="btn btn-default" role="button">Button</a>
+                    <a href="category-view.php" class="btn btn-default" role="button">Button</a>
                 </div>
             </div>
         </div>
@@ -80,7 +80,7 @@ include 'main-menu-after-login.php';
                 <div class="caption mask">
                     <h3>Dokter Umum</h3>
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
-                    <a href="#" class="btn btn-default" role="button">Button</a>
+                    <a href="category-view.php" class="btn btn-default" role="button">Button</a>
                 </div>
             </div>
         </div>

@@ -5,15 +5,33 @@ include 'main-menu-after-login.php';
 <div class="container">
     <div class="row">
         <div class="col-xs-12 col-sm-4 col-md-3">
-            <div class="panel panel-primary inverse-theme menu-list-category">
-                <div class="panel-heading"><h3 class="panel-title">House Keeping</h3></div>
-                <div class="panel-body">
-                    <ul class="list-group inverse-theme">
-                        <li><a class="list-group-item" href="" title="">Tukang kebun <span class="badge">(10)</span></a></li>
-                        <li><a class="list-group-item" href="" title="">Tukang kuras koran <span class="badge">(10)</span></a></li>
-                        <li><a class="list-group-item" href="" title="">Pembantu rumah tangga <span class="badge">(10)</span></a></li>
-                        <li><a class="list-group-item" href="" title="">Tukang sedot wc <span class="badge">(10)</span></a></li>
-                    </ul>
+            <div class="panel-group">
+                <div class="panel panel-primary inverse-theme menu-list-category">
+                    <div class="panel-heading"><h3 class="panel-title" data-toggle="collapse" href="#collapse1">House Keeping</h3></div>
+                    <div id="collapse1" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                            <ul class="list-group inverse-theme">
+                                <li><a class="list-group-item" href="" title="">Tukang kebun <span class="badge">(10)</span></a></li>
+                                <li><a class="list-group-item" href="" title="">Tukang kuras koran <span class="badge">(10)</span></a></li>
+                                <li><a class="list-group-item" href="" title="">Pembantu rumah tangga <span class="badge">(10)</span></a></li>
+                                <li><a class="list-group-item" href="" title="">Tukang sedot wc <span class="badge">(10)</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="panel panel-primary inverse-theme menu-list-category">
+                    <div class="panel-heading"><h3 class="panel-title" data-toggle="collapse" href="#collapse2">Service</h3></div>
+                    <div id="collapse2" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <ul class="list-group inverse-theme">
+                                <li><a class="list-group-item" href="" title="">Tukang kebun <span class="badge">(10)</span></a></li>
+                                <li><a class="list-group-item" href="" title="">Tukang kuras koran <span class="badge">(10)</span></a></li>
+                                <li><a class="list-group-item" href="" title="">Pembantu rumah tangga <span class="badge">(10)</span></a></li>
+                                <li><a class="list-group-item" href="" title="">Tukang sedot wc <span class="badge">(10)</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
