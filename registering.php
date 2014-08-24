@@ -8,6 +8,10 @@ include 'main-menu-before-login.php';
             <form class="form-center form-horizontal" method="post" action="" name="registerForm" role="form">
                 <h3 class="append_bottom_3">Register</h3>
                 <div class="form-group has-error">
+                    <input type="text" class="form-control" name="username" id="username" placeholder="Enter Username" value="">
+                    <span class="control-label">This field is required.</span>
+                </div>
+                <div class="form-group has-error">
                     <input type="text" class="form-control" name="email" id="email" placeholder="Enter Email" value="">
                     <span class="control-label">This field is required.</span>
                 </div>
