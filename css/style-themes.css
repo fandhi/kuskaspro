@@ -216,6 +216,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#464646', end
     max-width: 330px;
     padding: 15px;
     margin: 0 auto;
+    width: 330px;
 }
 /* Navbar-form 
 -------------------------------------------------*/
@@ -491,7 +492,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#464646', end
 
 .theme-style .popover {
     box-shadow: none;
-    border-radius: 0;
     border: 0;
     color: #fff;
 }

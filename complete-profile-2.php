@@ -19,10 +19,18 @@ include 'main-menu-after-login.php';
                 <div class="form-group">
                     <input type="text" class="form-control" id="" name="" placeholder="Salary Range">
                 </div>
-                    <div class="form-group text-center">
-                        <button type="button" class="btn btn-default" onclick="history.go(-1);return false;">Back</button>
-                        <button type="button" class="btn btn-default" onclick="window.location='complete-profile-3.php';">Next</button>
-                    </div>
+                <div class="form-group" style="position: relative;width: 80px;">
+                    <select id="salary_type" class="styled" name="salary_type">
+                        <option value="Daily">Daily</option>
+                        <option value="Hourly">Hourly</option>
+                    </select>
+                </div>
+                <br/>
+                <div class="form-group text-center">
+                    <button type="button" class="btn btn-default" onclick="history.go(-1);
+                            return false;">Back</button>
+                    <button type="button" class="btn btn-default" onclick="window.location = 'complete-profile-3.php';">Next</button>
+                </div>
             </form>
         </div>
     </div><!--end row-->
