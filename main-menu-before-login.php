@@ -16,7 +16,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <form class="navbar-form navbar-left" role="search">
                     <div class="form-group append-right-1">
-                        <input type="text" class="form-control prefix_3" placeholder="Search">
+                        <input type="text" class="form-control" placeholder="Search">
                         <button class="glyphicon glyphicon-search"></button>
                     </div>
                     <div class="form-group">
