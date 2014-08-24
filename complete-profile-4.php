@@ -1,6 +1,7 @@
 <?php
+$page = "register";
 include 'inc_header.php';
-include 'main-menu-after-login.php';
+include 'main-menu-before-login.php';
 ?>
 <div class="container">
     <div class="row">

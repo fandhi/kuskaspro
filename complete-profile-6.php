@@ -1,6 +1,7 @@
 <?php
+$page = "register";
 include 'inc_header.php';
-include 'main-menu-after-login.php';
+include 'main-menu-before-login.php';
 ?>
 <div class="container">
     <div class="row">
@@ -9,10 +10,10 @@ include 'main-menu-after-login.php';
                 <h3 class="panel-title">Complete your profile</h3>
             </div>
             <div class="text-center">
-                <h3>skipped...</h3>
+                <h3><a href="landing-page-1.php">skipped...</a></h3>
                 <p>you can manage your profile later via dashboard</p>
                 <div class="form-group">
-                    <button type="button" class="btn btn-default text-center" onclick="window.location = 'complete-profile-2.php';">Ok</button>
+                    <button type="button" class="btn btn-default text-center" onclick="window.location = 'dashboard.php';">Ok</button>
                 </div>
             </div>
         </div>

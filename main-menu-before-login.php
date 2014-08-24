@@ -23,9 +23,10 @@
                         <a class="text-uppercase" href="">Browse</a>
                     </div>
                 </form>
+                    <?php if($page == "register") echo '<span class="qifhavea">Already have an anyX account?</span>';?>
 
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="registering.php">Register</a></li>
+                    <?php if($page != "register") echo '<li><a href="registering.php">Register</a></li>';?>
                     <li><a href="sign-in.php">Sign In</a></li>
                     <li><a href="#">?</a></li>
                 </ul>

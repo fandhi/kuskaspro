@@ -1,6 +1,7 @@
 <?php
+$page = "register";
 include 'inc_header.php';
-include 'main-menu-after-login.php';
+include 'main-menu-before-login.php';
 ?>
 <div class="container">
     <div class="row">
@@ -12,7 +13,7 @@ include 'main-menu-after-login.php';
                 <h3>Completed...</h3>
                 <p>it may take up to 24hrs to make your profile online</p>
                 <div class="form-group">
-                    <button type="button" class="btn btn-default text-center" onclick="window.location = 'profile.php';">Ok</button>
+                    <button type="button" class="btn btn-default text-center" onclick="window.location = 'complete-profile-6.php';">Ok</button>
                 </div>
             </div>
         </div>

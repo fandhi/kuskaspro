@@ -1,4 +1,5 @@
 <?php
+$page = "sign-in";
 include 'inc_header.php';
 include 'main-menu-before-login.php';
 ?>
