@@ -53,11 +53,9 @@ include 'main-menu-after-login.php';
                         <button class="btn btn-info btn-xs append_top_1 bt9n_less" type="button">Less</button>
                         <div class="upfix_1 ket-star">
                             <div class="col-xs-3 col-sm-4 col-md-3 col-lg-2 prefix_0 pasfix_0 pupline">
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
+                                <div class="rating-container rating-gly-star" data-content="">
+                                    <div class="rating-stars" data-content="" style="width: 100%;"></div>
+                                </div>
                             </div>
                             <div class="col-xs-9 col-sm-8 col-md-9 col-lg-10 prefix_0">
                                 <b><span class="pupline">IDR 500.000 per Jam</span> Bandung, Jawa Barat</b>
@@ -82,11 +80,9 @@ include 'main-menu-after-login.php';
                         <button class="btn btn-info btn-xs append_top_1 btn_less" type="button">Less</button>
                         <div class="upfix_1 ket-star">
                             <div class="col-xs-3 col-sm-4 col-md-3 col-lg-2 prefix_0 pasfix_0 pupline">
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
+                                <div class="rating-container rating-gly-star" data-content="">
+                                    <div class="rating-stars" data-content="" style="width: 60%;"></div>
+                                </div>
                             </div>
                             <div class="col-xs-9 col-sm-8 col-md-9 col-lg-10 prefix_0">
                                 <b><span class="pupline">IDR 500.000 per Jam</span> Bandung, Jawa Barat</b>
@@ -110,11 +106,9 @@ include 'main-menu-after-login.php';
                         <button class="btn btn-info btn-xs append_top_1 btn_less" type="button">Less</button>
                         <div class="upfix_1 ket-star">
                             <div class="col-xs-3 col-sm-4 col-md-3 col-lg-2 prefix_0 pasfix_0 pupline">
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
+                                <div class="rating-container rating-gly-star" data-content="">
+                                    <div class="rating-stars" data-content="" style="width: 30%;"></div>
+                                </div>
                             </div>
                             <div class="col-xs-9 col-sm-8 col-md-9 col-lg-10 prefix_0">
                                 <b><span class="pupline">IDR 500.000 per Jam</span> Bandung, Jawa Barat</b>
