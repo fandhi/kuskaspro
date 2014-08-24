@@ -16,7 +16,7 @@ include 'main-menu-before-login.php';
                     <span class="control-label">This field is required.</span>
                 </div>
                 <div class="form-group has-error">
-                    <input type="text" class="form-control" id="" name="" placeholder="Birth year">
+                    <input type="text" class="form-control datepicker" id="" name="" placeholder="Birth year">
                     <span class="control-label">This field is required.</span>
                 </div>
                 <div class="form-group">

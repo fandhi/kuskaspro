@@ -262,12 +262,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5e', end
 }
 /* Datepicker */
 .green-theme .datepicker {
-	background-color: #404143;
+	/*background-color: #404143;*/
 }
-/*.green-theme .datepicker .datepicker-days:before,
+.green-theme .datepicker .datepicker-days:before,
 .green-theme .datepicker .datepicker-days:after{
     background-color: #404143;
-}*/
+}
 .green-theme .datepicker thead {
 	background-color: #404143;
 }

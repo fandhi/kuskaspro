@@ -2,26 +2,39 @@ $(document).ready(function() {
 
     //SHOW HIDE BUTTON
     /*$("#category + .btn.btn-default").click(function() {
-        catheight = $("#category .row").innerHeight();
-        if ($(this).hasClass("open"))
-        {
-            $(this).removeClass("open");
-            $("#category").animate({"height": 540});
-            $(".btn .oc").show();
-            $(".btn .cc").hide();
-        } else {
-            $(this).addClass("open");
-            $("#category").animate({"height": catheight});
-            $(".btn .oc").hide();
-            $(".btn .cc").show();
-        }
-    });*/
+     catheight = $("#category .row").innerHeight();
+     if ($(this).hasClass("open"))
+     {
+     $(this).removeClass("open");
+     $("#category").animate({"height": 540});
+     $(".btn .oc").show();
+     $(".btn .cc").hide();
+     } else {
+     $(this).addClass("open");
+     $("#category").animate({"height": catheight});
+     $(".btn .oc").hide();
+     $(".btn .cc").show();
+     }
+     });*/
 
     //Initialize Bootstrap Switch.
     $("input[type='checkbox'][name='onoff']").bootstrapSwitch();
+//    $("input[type='checkbox'][name='onoff']").on("click", function(){
+//            $(this).bootstrapSwitch('state', true);
+//            $(this).siblings("#registerPassword").attr(type="text");
+//        });
+    $('input[name="onoff"]').on({
+    'init.bootstrapSwitch': function() {
+      $('#registerPassword' + ($(this).is(':checked') ? '2' : '3')).type = "password";
+    },
+    'switchChange.bootstrapSwitch': function(event, state) {
+      $('#registerPassword')[state ? 'show' : 'hide']();
+      $('#registerPassword')[state ? 'hide' : 'type = "text"']();
+    }
+  });
     // initialize with defaults rating stars
     $("#input-id").rating();
-    
+
     //TOGGLE SEARCH CONTENT
     $('#search-result li .btn_read_more').click(function() {
         var temp = $(this);
@@ -38,30 +51,30 @@ $(document).ready(function() {
         });
         return false;
     });
-    
+
     //CLICK SHOW EMAIL & NUMBER
-    $(".click-show-email").click(function(){
+    $(".click-show-email").click(function() {
         $("#uEmail").show();
         $(this).hide();
     });
-    $(".click-show-number").click(function(){
+    $(".click-show-number").click(function() {
         $("#uNumber").show();
         $(this).hide();
     });
     //CLICK TOGGLE PROFILE DESCRIPTION
-    $("#profileDesc .click-show-profile-desc").click(function(){
+    $("#profileDesc .click-show-profile-desc").click(function() {
         var updHeight = $("#profileDesc .profile-desc-collapse > div").outerHeight();
-        $(".profile-desc-collapse").animate({"height": updHeight},500);
+        $(".profile-desc-collapse").animate({"height": updHeight}, 500);
         $(this).hide();
         $("#profileDesc .click-hide-profile-desc").show();
     });
-    $("#profileDesc .click-hide-profile-desc").click(function(){
-        $(".profile-desc-collapse").animate({"height": "123"},500);
+    $("#profileDesc .click-hide-profile-desc").click(function() {
+        $(".profile-desc-collapse").animate({"height": "123"}, 500);
         $(this).hide();
         $("#profileDesc .click-show-profile-desc").show();
     });
-    
-     //TOGGLE USER COMMENT CONTENT
+
+    //TOGGLE USER COMMENT CONTENT
     $('.media-list li .btn_read_more').click(function() {
         var temp = $(this);
         var filterNum = $(this).parents('li').attr('id').match(/\d+/);
@@ -77,48 +90,56 @@ $(document).ready(function() {
         });
         return false;
     });
-    
+
     //HOVER UNVERIFY
-    if( $(".cos-ratings .unv").mouseover(function(){
+    if ($(".cos-ratings .unv").mouseover(function() {
         $(".cos-ratings .unv").hide();
         $(".cos-ratings .ver").show();
-    })){
-         
-    } if ($(".cos-ratings .ver").mouseleave(function(){
+    })) {
+
+    }
+    if ($(".cos-ratings .ver").mouseleave(function() {
         $(".cos-ratings .unv").show();
         $(".cos-ratings .ver").hide();
-    }));
-    
+    }))
+        ;
+
     //EDITABLES 
-    $.fn.editable.defaults.mode = 'inline';
-    $(".profile-edittable").editable({url: '/post'}) ;
-    $('#expertise').editable("option", "validate", function(v){
-           if(!v) return "Required field";
+//    $.fn.editable.defaults.mode = 'inline';
+    $.mockjax({
+        url: '/post',
+        responseTime: 500,
+        responseText: ''
     });
-    $("#salaryRange").editable({
-        validate: function(value) {
-            if($.trim(value) == "") return "This field is required";
-        }
+
+    $.mockjax({
+        url: '/newuser',
+        responseTime: 300,
+        responseText: '{ "id": 1 }'
     });
-    $("#name").editable({
-        validate: function(value) {
-            if($.trim(value) == "") return "This field is required";
-        }
+//init editales
+    $(".profile-edittable").editable({
+        url: '/post',
+        placement: "right"
     });
-    $("#age").editable({
-        validate: function(value) {
-            if($.trim(value) == "") return "This field is required";
+    //Make username required
+    $("#newUsername").editable("option", 'validate', function(v) {
+        if (!v)
+            return 'Required field!';
+    })
+
+    $.mockjax({
+        url: '/expertise',
+        responseText: {
+            0: 'Tukang Cuci',
+            1: 'Tukang Kebun'
         }
     });
     $.mockjax({
         url: '/gender',
         responseText: {
-            0: 'Guest',
-            1: 'Service',
-            2: 'Customer',
-            3: 'Operator',
-            4: 'Support',
-            5: 'Admin'
+            0: 'Male',
+            1: 'Female'
         }
     });
 //    $("#gender").editable({
@@ -137,75 +158,59 @@ $(document).ready(function() {
 //            }
 //        }
 //    });
-    $("#location").editable({
-        validate: function(value) {
-            if($.trim(value) == "") return "This field is required";
-        }
-    });
-    $("#salaryRange").editable({
-        validate: function(value) {
-            if($.trim(value) == "") return "This field is required";
-        }
-    });
-    $("#contact").editable({
-        validate: function(value) {
-            if($.trim(value) == "") return "This field is required";
-        }
-    });
-    $("#description").editable({
-        validate: function(value) {
-            if($.trim(value) == "") return "This field is required";
-        }
-    });
+
     //automatically show next editable
-    $(".profile-edittable").on("save.newuser", function(){
+    $(".profile-edittable").on("save.newuser", function() {
         var that = this;
-        setTimeout(function(){
-            $(that).closest("tr"),next().find(".profile-edittable").editable("show");
+        setTimeout(function() {
+            $(that).closest("tr"), next().find(".profile-edittable").editable("show");
         }, 200);
     });
     //SAVE CONTENT EDITABLE
-    $("#saveBtn").click(function(){
+    $("#saveBtn").click(function() {
         $(".profile-edittable").editable("submit", {
             ur: "/newuser",
             ajaxOptions: {
                 dataType: "json"
             },
             success: function(data, config) {
-                if(data && data.id) {
+                if (data && data.id) {
                     $this.editable("option", "pk", data.id);
                     $(this).removeClass("editable-unsaved");
                     var msg = "New user created! ";
-                    $("#msg").addClass("aler-success").removeClass("alert-error").html(msg).show();
+                    $("#msg").addClass("alert-success").removeClass("alert-error").html(msg).show();
                     $("#saveBtn").hide();
                     $(this).off("save.newuser");
-                } else if("save.newuser"){
+                } else if (data && data.errors) {
                     config.error.call(this, data.errors);
-                };
+                }
+                ;
             },
-                    error: function(errors) {
+            error: function(errors) {
                 var msg = "";
-                if(errors && errors.responseText) {
+                if (errors && errors.responseText) {
                     msg = errors.responseText;
                 } else {
                     $.each(errors, function(k, v) {
-                        msg += k+":"+v+"<br>";
+                        msg += k + ":" + v + "<br>";
                     });
                 }
                 $("#msg").removeClass("alert-success").addClass("alert-error").html(msg).show();
-                    }
+            }
         });
-        
-        $("#resetBtn").click(function() {
-            $(".myeditable").editable("setValue", null)  //clear values
-                    .editable("option", "pk", null)          //clear pk
-                    .removeClass("editable-unsaved");        //remove bold css
+    });
+    //Reset
+    $("#resetBtn").click(function() {
+        $(".profile-edittable").editable("setValue", null)  //clear values
+                .editable("option", "pk", null)          //clear pk
+                .removeClass("editable-unsaved");        //remove bold css
 
-            $("#saveBtn").show();
-            $("#msg").hide();
-        });
-    });    //END EDITABLE
-    
+        $("#saveBtn").show();
+        $("#msg").hide();
+    });
+    //END EDITABLE
+    //DATE PICKER
+    $('.datepicker').datepicker();
 });//END DOCUMENT
 
 
