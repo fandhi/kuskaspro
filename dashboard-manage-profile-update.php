@@ -50,44 +50,57 @@ include "connect.php";
                 <a href="dashboard-go-premium.php" class="list-group-item">Go Premium</a>
             </div>
         </div>
-        <div class="col-sm-8 col-md-7">
-            <div class="thumbnail col-sm-2 col-md-3  col-lg-2">
+        <div class="col-sm-8 col-md-9">
+            <div class="col-sm-2 col-md-3  col-lg-3">
+                <form id="" class="" method="post" action="">
+                    <div class="thumbnail">
                 <img class="" src="img/material/user.jpg" alt="user"/>
+                    </div>
+                <div class="form-group">
+                    <input class="form-control" type="file">
+                </div>
+                </form>
             </div>
-            <div class="col-sm-10 col-md-9 col-lg-10">
+            <div class="col-sm-10 col-md-9 col-lg-9">
                 <div id="msg" class="alert hide"></div>
-                <table class="table-custom highlight ">
+                <table id="profileUpdates" class="table-custom highlight ">
                     <tbody>
                         <tr>
-                            <td><a href="#" id="expertise" data-type="text" data-source="/expertise" data-title="Enter expertise" class="profile-edittable">expertise</a></td>
+                            <td width="20%">Expertise</td>
+                            <td width="80%"><a href="#" id="expertise" data-type="select" data-source="/expertise" data-title="Enter expertise" class="profile-edittable"></a></td>
                         </tr>
                         <tr>
-                            <td><a href="#" id="salaryRange" data-type="text" data-title="Enter salary range" class="profile-edittable">salary range</a></td>
+                            <td>Salary</td>
+                            <td><a href="#" id="salary" data-type="text" data-title="Enter salary" class="profile-edittable"></a></td>
                         </tr>
                         <tr>
-                            <td><a href="#" id="name" data-type="text" data-title="Enter name" class="profile-edittable">name</a></td>
+                            <td>Name</</td>
+                            <td><a href="#" id="name" data-type="text" data-title="Enter name" class="profile-edittable"></td>
                         </tr>
                         <tr>
-                            <td><a href="#" id="age" data-type="text" data-title="Enter age" class="profile-edittable">age</a></td>
+                            <td>Age</td>
+                            <td><a href="#" id="age" data-type="text" data-title="Enter age" class="profile-edittable"></a></td>
                         </tr>
                         <tr>
-                            <td><a href="#" id="gender" data-type="select" data-name="gender" data-source="/gender" data-original-title="Select gender" class="profile-edittable">gender</a></td>
+                            <td>Gender</td>
+                            <td><a href="#" id="gender" data-type="select" data-name="gender" data-source="/gender" data-original-title="Select gender" class="profile-edittable"></a></td>
                         </tr>
                         <tr>
-                            <td><a href="#" id="location" data-type="textarea" data-title="Enter location" class="profile-edittable">location</a></td>
+                            <td>Location</td>
+                            <td><a href="#" id="location" data-type="textarea" data-title="Enter location" class="profile-edittable"></a></td>
                         </tr>
                         <tr>
-                            <td><a href="#" id="contact" data-type="textarea" data-title="Enter contact" class="profile-edittable">contact</a></td>
+                            <td>Contact</td>
+                            <td><a href="#" id="contact" data-type="textarea" data-title="Enter contact" class="profile-edittable"></a></td>
                         </tr>
                         <tr>
-                            <td><div class="col-lg-10"><a href="#" id="description" class="profile-edittable" data-type="textarea" data-pk="1" data-title="Enter description" class="profile-edittable">Description</a></div></td>
+                            <td>Description</td>
+                            <td><a href="#" id="description" class="profile-edittable" data-type="textarea" data-pk="1" data-title="Enter description" class="profile-edittable"></a></td>
                         </tr>
                         <tr>
+                            <td><button type="button" id="saveBtn" class="btn btn-default">Update</button></td>
                             <td>
-                                <div class="form-group text-center">
-                                    <button type="button" id="saveBtn" class="btn btn-default">Update</button>
                                     <button type="button" id="resetBtn" class="btn btn-danger" onclick="window.location = 'complete-profile-5.php';">Delete</button>
-                                </div>
                             </td>
                         </tr>
                     </tbody>
