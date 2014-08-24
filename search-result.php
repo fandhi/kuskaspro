@@ -9,19 +9,24 @@ include 'main-menu-after-login.php';
             <form class="form-horizontal col-xs-12" method="post" action="" role="form">
                 <label>Narrow result by</label>
                 <div class="form-group">
-                    <select class="form-control styled">
-                        <option value="">Province</option>
+                    <select class="form-control styled" name="prv">
+                        <option value="">Province 1</option>
+                        <option value="">Province 2</option>
+                        <option value="">Province 3</option>
                     </select>
                 </div>
                 <div class="form-group">
-                    <select class="form-control styled">
-                        <option value="">City</option>
+                    <select class="form-control styled" name="cty">
+                        <option value="">City 1</option>
+                        <option value="">City 2</option>
+                        <option value="">City 3</option>
                     </select>
                 </div>
                 <label>Sort by salary</label>
                 <div class="form-group">
-                    <select class="form-control styled">
+                    <select class="form-control styled" name="srt">
                         <option value="">Highest</option>
+                        <option value="">Lowest</option>
                     </select>
                 </div>
                 <div class="form-group">
