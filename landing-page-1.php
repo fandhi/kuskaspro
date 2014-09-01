@@ -1,4 +1,5 @@
 <?php
+$page = "landing-page-1";
 include 'inc_header.php';
 include 'main-menu-after-login.php';
 ?>

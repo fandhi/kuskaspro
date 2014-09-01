@@ -1,4 +1,5 @@
 <?php
+$page = "profile";
 include 'inc_header.php';
 include 'main-menu-after-login.php';
 // Error reporting:

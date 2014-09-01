@@ -1,3 +1,6 @@
+<?php
+$url = $_SERVER['SERVER_NAME'] . "/kuskas/";
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -6,6 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <meta name="author" content="">
+        <?php if($page === "register-success") {echo '<meta http-equiv="refresh" content="3;URL=http://'.$url.'sign-in.php">' ;}?>
         <title>Title | Kuskas</title>
         <link href="css/style.css" rel="stylesheet">
         <link href="css/bootstrap.css" rel="stylesheet">

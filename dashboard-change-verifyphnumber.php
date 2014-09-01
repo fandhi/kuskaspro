@@ -1,4 +1,5 @@
 <?php
+$page = "manage-verify-phone-number";
 include 'inc_header.php';
 include 'main-menu-after-login.php';
 ?>

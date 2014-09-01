@@ -32,7 +32,7 @@ include 'main-menu-before-login.php';
                     </label>
                 </div>
                 <div class="form-group">
-                    <button type="button" class="btn btn-default btn-block text-center" onclick="window.location = 'landing-page-1.php';">Submit</button>
+                    <button type="button" class="btn btn-default btn-block text-center" onclick="window.location = 'registering-success.php';">Submit</button>
                 </div>
             </form>
         </div>

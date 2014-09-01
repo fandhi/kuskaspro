@@ -1,4 +1,5 @@
 <?php
+$page = "manage-profile-update";
 include 'inc_header.php';
 include 'main-menu-after-login.php';
 /*

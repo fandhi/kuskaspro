@@ -1,4 +1,5 @@
 <?php
+$page = "change-password";
 include 'inc_header.php';
 include 'main-menu-after-login.php';
 ?>
