@@ -24,12 +24,15 @@ include 'main-menu-before-login.php';
                     <span class="control-label clearfix pull-left">This field is required.</span>
                 </div>
                 <div class="form-group">
+                    <input class="form-condtrol" type="file">
+                </div>
+                <div class="form-group">
                     <label class="checkbox">
                         <input type="checkbox" value="remember-me"> I agree
                     </label>
                 </div>
                 <div class="form-group">
-                    <button type="button" class="btn btn-default btn-block text-center" onclick="window.location = 'complete-profile-1.php';">Get started</button>
+                    <button type="button" class="btn btn-default btn-block text-center" onclick="window.location = 'landing-page-1.php';">Submit</button>
                 </div>
             </form>
         </div>
